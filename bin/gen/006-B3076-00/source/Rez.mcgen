@@ -1,0 +1,45 @@
+import Toybox.Lang;
+using Toybox.WatchUi;
+using Toybox.WatchUi as Ui;
+using Toybox.Graphics;
+using Toybox.Graphics as Gfx;
+
+module Rez {
+    module Drawables {
+        (:initialized) var music as Symbol;
+        (:initialized) var LauncherIcon as Symbol;
+    } // Drawables
+
+    module Fonts {
+    } // Fonts
+
+    module JsonData {
+    } // JsonData
+
+    module Layouts {
+        function MainLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+            var rez_cmp_local_text_title = new WatchUi.Text({:identifier=>"title", :color=>Gfx.COLOR_ORANGE, :locX=>(240 * 0.5), :locY=>(240 * (10 / 100.0)), :text=>"Cadance", :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_SMALL});
+
+            var rez_cmp_local_text_Recommendation = new WatchUi.Text({:identifier=>"Recommendation", :color=>Gfx.COLOR_WHITE, :locX=>(240 * (10 / 100.0)), :locY=>(240 * (40 / 100.0)), :text=>"Recommended BPM: ", :justification=>Gfx.TEXT_JUSTIFY_LEFT, :font=>Gfx.FONT_XTINY});
+
+            var rez_cmp_local_text_heartRate = new WatchUi.Text({:identifier=>"heartRate", :color=>Gfx.COLOR_WHITE, :locX=>(240 * (10 / 100.0)), :locY=>(240 * (50 / 100.0)), :text=>"Heart Rate: ", :justification=>Gfx.TEXT_JUSTIFY_LEFT, :font=>Gfx.FONT_XTINY});
+
+            var rez_cmp_local_text_cadence = new WatchUi.Text({:identifier=>"cadence", :color=>Gfx.COLOR_WHITE, :locX=>(240 * (10 / 100.0)), :locY=>(240 * (60 / 100.0)), :text=>"Cadence: ", :justification=>Gfx.TEXT_JUSTIFY_LEFT, :font=>Gfx.FONT_XTINY});
+
+            return [rez_cmp_local_text_title, rez_cmp_local_text_Recommendation, rez_cmp_local_text_heartRate, rez_cmp_local_text_cadence] as Array<WatchUi.Drawable>;
+        }
+
+        function GlanceLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+            var rez_cmp_local_text_title = new WatchUi.Text({:identifier=>"title", :color=>Gfx.COLOR_ORANGE, :locX=>(240 * 0.5), :locY=>((240 - dc.getFontHeight(Gfx.FONT_LARGE)) * 0.5), :text=>"Cadance", :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_LARGE});
+
+            return [rez_cmp_local_text_title] as Array<WatchUi.Drawable>;
+        }
+    } // Layouts
+
+    module Menus {
+    } // Menus
+
+    module Strings {
+        (:initialized) var AppName as Symbol;
+    } // Strings
+} // Rez

@@ -1,0 +1,166 @@
+[ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc"; @line = 1; ]
+using Toybox.Sensor;
+[ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc"; @line = 2; ]
+using Toybox.AntPlus;
+[ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc"; @line = 3; ]
+using Toybox.Math;
+[ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc"; @line = 4; ]
+import Toybox.WatchUi;
+[ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc"; @line = 6; ]
+class CadanceDataDelegate{
+    [ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc"; @line = 6; ]
+    <init> {
+    }
+    [ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc"; @line = 6; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc"; @line = 7; @position = 15; ]
+    protected
+    var bpm = 0;
+    [ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc"; @line = 8; @position = 15; ]
+    protected
+    var cadence = 0;
+    [ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc"; @line = 9; @position = 15; ]
+    protected
+    var heartRate = 0;
+    [ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc"; @line = 11; @position = 15; ]
+    protected
+    var dynamics;
+    [ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc"; @line = 12; @position = 15; ]
+    protected
+    var watchView;
+    [ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc"; @line = 15; ]
+    function initialize(view as CadanceView) as Void {
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_15_45_start:
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" 20 8 ]
+        [ "_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_15_45_start" "_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_15_45_stop" ]
+        %listener.1 = local;
+        %tmp.3 = getm $.Toybox.AntPlus;
+        %tmp.4 = getv function ? %tmp.3 :RunningDynamicsListener;
+        %tmp.1 = newc %tmp.4 ();
+        lputv %listener.1 %tmp.1;
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" 21 8 ]
+        %tmp.7 = getm $.Toybox.AntPlus;
+        %tmp.8 = getv function ? %tmp.7 :RunningDynamics;
+        %tmp.10 = lgetv %listener.1;
+        %tmp.5 = newc %tmp.8 (%tmp.10);
+        putv self :dynamics %tmp.5;
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" 23 8 ]
+        %tmp.12 = getv ? :watchView;
+        lputv %view %tmp.12;
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_15_45_stop:
+    }
+    [ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc"; @line = 26; ]
+    function getBPM() as Toybox.Lang.Number {
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_26_43_start:
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" 27 8 ]
+        %tmp.2 = getv ? :bpm;
+        ret %tmp.2;
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_26_43_stop:
+    }
+    [ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc"; @line = 30; ]
+    function getCadence() as Toybox.Lang.Number {
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_30_47_start:
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" 31 8 ]
+        %tmp.2 = getv ? :cadence;
+        ret %tmp.2;
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_30_47_stop:
+    }
+    [ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc"; @line = 34; ]
+    function getHeartRate() as Toybox.Lang.Number {
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_34_49_start:
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" 35 8 ]
+        %tmp.2 = getv ? :heartRate;
+        ret %tmp.2;
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_34_49_stop:
+    }
+    [ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc"; @line = 38; ]
+    function updateFields(sensorInfo as Sensor.Info) as Void {
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_38_61_start:
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" 39 8 ]
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_39_8_if_stmt:
+        %tmp.1 = lgetv %sensorInfo;
+        %tmp.2 = getv %tmp.1 :heartRate;
+        %tmp.3 = null;
+        %tmp.4 = ne %tmp.2 %tmp.3;
+        bf %tmp.4 @_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_39_8_if_end;
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_39_8_if_true:
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_39_40_start:
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" 40 12 ]
+        %tmp.5 = lgetv %sensorInfo;
+        %tmp.6 = getv %tmp.5 :heartRate;
+        putv self :heartRate %tmp.6;
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" 42 12 ]
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_42_12_if_stmt:
+        %tmp.8 = getv ? :dynamics;
+        %tmp.9 = getv function %tmp.8 :getRunningDynamics;
+        %tmp.10 = invoke %tmp.8 %tmp.9();
+        %tmp.11 = null;
+        %tmp.12 = ne %tmp.10 %tmp.11;
+        bf %tmp.12 @_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_42_12_if_false;
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_42_12_if_true:
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_42_53_start:
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" 43 17 ]
+        %tmp.14 = getv ? :dynamics;
+        %tmp.15 = getv function %tmp.14 :getRunningDynamics;
+        %tmp.16 = invoke %tmp.14 %tmp.15();
+        %tmp.17 = getv %tmp.16 :cadence;
+        putv self :cadence %tmp.17;
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_42_53_stop:
+        goto @_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_42_12_if_end;
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_42_12_if_false:
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" 44 19 ]
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_44_19_if_stmt:
+        %tmp.18 = lgetv %sensorInfo;
+        %tmp.19 = getv %tmp.18 :cadence;
+        %tmp.20 = null;
+        %tmp.21 = ne %tmp.19 %tmp.20;
+        bf %tmp.21 @_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_44_19_if_end;
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_44_19_if_true:
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_44_50_start:
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" 45 16 ]
+        %tmp.22 = getm $.Toybox.Math;
+        %tmp.23 = getv function %tmp.22 :floor;
+        %tmp.24 = lgetv %sensorInfo;
+        %tmp.25 = getv %tmp.24 :cadence;
+        %tmp.26 = 1.75;
+        %tmp.27 = mul %tmp.25 %tmp.26;
+        %tmp.28 = invoke %tmp.22 %tmp.23(%tmp.27);
+        %tmp.29 = getv function %tmp.28 :toNumber;
+        %tmp.30 = invoke %tmp.28 %tmp.29();
+        putv self :cadence %tmp.30;
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_44_50_stop:
+        goto @_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_44_19_if_end;
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_44_19_if_end:
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_42_12_if_end:
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" 48 12 ]
+        %tmp.32 = getv ? :System;
+        %tmp.33 = getv function %tmp.32 :println;
+        %tmp.34 = "Heart Rate: ";
+        %tmp.36 = getv ? :heartRate;
+        %tmp.37 = add %tmp.34 %tmp.36;
+        invoke %tmp.32 %tmp.33(%tmp.37);
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" 49 12 ]
+        %tmp.39 = getv ? :System;
+        %tmp.40 = getv function %tmp.39 :println;
+        %tmp.41 = "Cadence: ";
+        %tmp.43 = getv ? :cadence;
+        %tmp.44 = add %tmp.41 %tmp.43;
+        invoke %tmp.39 %tmp.40(%tmp.44);
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" 50 12 ]
+        %tmp.46 = getv ? :System;
+        %tmp.47 = getv function %tmp.46 :println;
+        %tmp.48 = "BPM: ";
+        %tmp.50 = getv ? :bpm;
+        %tmp.51 = add %tmp.48 %tmp.50;
+        invoke %tmp.46 %tmp.47(%tmp.51);
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_39_40_stop:
+        goto @_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_39_8_if_end;
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_39_8_if_end:
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_38_61_stop:
+    }
+}
+[ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc"; @line = 1; ]
+<init> {
+}

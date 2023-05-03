@@ -1,0 +1,77 @@
+[ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceApp.mc"; @line = 1; ]
+import Toybox.Application;
+[ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceApp.mc"; @line = 2; ]
+import Toybox.Lang;
+[ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceApp.mc"; @line = 3; ]
+import Toybox.WatchUi;
+[ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceApp.mc"; @line = 5; ]
+class CadanceApp extends Application.AppBase{
+    [ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceApp.mc"; @line = 5; ]
+    <init> {
+    }
+    [ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceApp.mc"; @line = 5; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceApp.mc"; @line = 7; @position = 15; ]
+    protected
+    var view;
+    [ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceApp.mc"; @line = 9; ]
+    function initialize() as Void {
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceApp_mc_9_26_start:
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceApp.mc" 10 8 ]
+        %tmp.2 = getv ? :AppBase;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceApp_mc_9_26_stop:
+    }
+    [ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceApp.mc"; @line = 14; ]
+    function onStart(state as Dictionary or Null) as Void {
+    }
+    [ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceApp.mc"; @line = 19; ]
+    function onStop(state as Dictionary or Null) as Void {
+    }
+    [ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceApp.mc"; @line = 24; ]
+    function onGlanceEvent(options) {
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceApp_mc_24_36_start:
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceApp.mc" 26 8 ]
+        %tmp.1 = newa 1;
+        %tmp.5 = getv ? :CadanceGlanceView;
+        %tmp.2 = newc %tmp.5 ();
+        %tmp.6 = dup %tmp.1;
+        %tmp.7 = aputv %tmp.6 0 %tmp.2;
+        ret %tmp.7;
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceApp_mc_24_36_stop:
+    }
+    [ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceApp.mc"; @line = 30; ]
+    function getInitialView() as Array<Views or InputDelegates> or Null {
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceApp_mc_30_65_start:
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceApp.mc" 31 8 ]
+        %tmp.2 = getv ? :System;
+        %tmp.3 = getv function %tmp.2 :print;
+        %tmp.4 = "initial view retrieved";
+        invoke %tmp.2 %tmp.3(%tmp.4);
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceApp.mc" 32 8 ]
+        %tmp.5 = newa Array<Views or InputDelegates> 1;
+        %tmp.9 = getv ? :CadanceView;
+        %tmp.6 = newc %tmp.9 ();
+        %tmp.10 = dup %tmp.5;
+        %tmp.11 = aputv %tmp.10 0 %tmp.6;
+        ret %tmp.11;
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceApp_mc_30_65_stop:
+    }
+}
+[ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceApp.mc"; @line = 37; ]
+function getApp() as CadanceApp {
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceApp_mc_37_32_start:
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceApp.mc" 38 4 ]
+    %tmp.1 = getm $.Toybox.Application;
+    %tmp.2 = getv function %tmp.1 :getApp;
+    %tmp.3 = invoke %tmp.1 %tmp.2();
+    %tmp.4 = as %tmp.3 CadanceApp;
+    ret %tmp.4;
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceApp_mc_37_32_stop:
+}
+[ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceApp.mc"; @line = 1; ]
+<init> {
+}

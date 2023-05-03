@@ -1,0 +1,54 @@
+[ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceGlanceView.mc"; @line = 1; ]
+import Toybox.Graphics;
+[ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceGlanceView.mc"; @line = 2; ]
+import Toybox.WatchUi;
+[ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceGlanceView.mc"; @line = 4; ]
+class CadanceGlanceView extends WatchUi.GlanceView{
+    [ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceGlanceView.mc"; @line = 4; ]
+    <init> {
+    }
+    [ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceGlanceView.mc"; @line = 4; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceGlanceView.mc"; @line = 4; ]
+    function initialize() as Void {
+    }
+    [ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceGlanceView.mc"; @line = 6; ]
+    function onLayout(dc as Dc) as Void {
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceGlanceView_mc_6_40_start:
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceGlanceView.mc" 7 8 ]
+        %tmp.1 = self;
+        %tmp.2 = getv function %tmp.1 :setLayout;
+        %tmp.4 = getv ? :Rez;
+        %tmp.5 = getv %tmp.4 :Layouts;
+        %tmp.6 = getv function %tmp.5 :GlanceLayout;
+        %tmp.8 = lgetv %dc;
+        %tmp.9 = invoke %tmp.5 %tmp.6(%tmp.8);
+        invoke %tmp.1 %tmp.2(%tmp.9);
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceGlanceView_mc_6_40_stop:
+    }
+    [ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceGlanceView.mc"; @line = 13; ]
+    function onShow() as Void {
+    }
+    [ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceGlanceView.mc"; @line = 17; ]
+    function onUpdate(dc as Dc) as Void {
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceGlanceView_mc_17_40_start:
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceGlanceView.mc" 18 8 ]
+        %tmp.1 = lgetv %dc;
+        %tmp.2 = getv function %tmp.1 :clear;
+        invoke %tmp.1 %tmp.2();
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceGlanceView.mc" 19 8 ]
+        %tmp.4 = getv ? :View;
+        %tmp.5 = getv function %tmp.4 :onUpdate;
+        %tmp.7 = lgetv %dc;
+        invoke %tmp.4 %tmp.5(%tmp.7);
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceGlanceView_mc_17_40_stop:
+    }
+    [ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceGlanceView.mc"; @line = 25; ]
+    function onHide() as Void {
+    }
+}
+[ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceGlanceView.mc"; @line = 1; ]
+<init> {
+}

@@ -1,0 +1,59 @@
+<layouts>
+
+    <layout id="MainLayout">
+        <label 
+        id="title"
+        text="Cadance"
+        x="center" 
+        y="10%" 
+        color="Gfx.COLOR_ORANGE"
+        font="Gfx.FONT_SMALL"
+        justification="Gfx.TEXT_JUSTIFY_CENTER"
+        />
+
+        <label
+        id="Recommendation"
+        text="Recommended BPM: "
+        x="10%"
+        y="40%"
+        color="Gfx.COLOR_WHITE"
+        font="Gfx.FONT_XTINY"
+        justification="Gfx.TEXT_JUSTIFY_LEFT"
+        />
+
+        <label
+        id="heartRate"
+        text="Heart Rate: "
+        x="10%"
+        y="50%"
+        color="Gfx.COLOR_WHITE"
+        font="Gfx.FONT_XTINY"
+        justification="Gfx.TEXT_JUSTIFY_LEFT"
+        />
+
+        <label
+        id="cadence"
+        text="Cadence: "
+        x="10%"
+        y="60%"
+        color="Gfx.COLOR_WHITE"
+        font="Gfx.FONT_XTINY"
+        justification="Gfx.TEXT_JUSTIFY_LEFT"
+        />
+        
+    </layout>
+
+
+    <layout id="GlanceLayout">
+        <label 
+        id="title"
+        text="Cadance"
+        x="center" 
+        y="center" 
+        color="Gfx.COLOR_ORANGE"
+        font="Gfx.FONT_LARGE"
+        justification="Gfx.TEXT_JUSTIFY_CENTER"
+        />
+    </layout>
+
+</layouts>
