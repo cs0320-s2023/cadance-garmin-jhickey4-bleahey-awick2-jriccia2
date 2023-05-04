@@ -27,7 +27,8 @@ class CadanceApp extends Application.AppBase {
     }
 
     function onGlanceEvent(options){
-        getGlanceView().onGlanceEvent(options);
+        //If I want to display something other than the app name, add a 
+        // delegate or event here.
     }
 
     // Return the initial view of your application here
