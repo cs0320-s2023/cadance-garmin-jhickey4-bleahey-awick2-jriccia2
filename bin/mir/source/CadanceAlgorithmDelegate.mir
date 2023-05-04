@@ -185,10 +185,10 @@ _Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceAlgor
         %tmp.61 = getm $.Toybox.Math;
         %tmp.62 = getv function %tmp.61 :round;
         %tmp.64 = lgetv %energy.7;
-        %tmp.65 = 100;
+        %tmp.65 = 100d;
         %tmp.66 = mul %tmp.64 %tmp.65;
         %tmp.67 = invoke %tmp.61 %tmp.62(%tmp.66);
-        %tmp.68 = 100;
+        %tmp.68 = 100d;
         %tmp.69 = div %tmp.67 %tmp.68;
         ret %tmp.69;
 _Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceAlgorithmDelegate_mc_23_21_stop:

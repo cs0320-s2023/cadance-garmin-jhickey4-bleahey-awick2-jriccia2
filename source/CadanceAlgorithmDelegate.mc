@@ -39,6 +39,6 @@ class CadanceAlgorithmDelegate {
         } else if (energy < 0) { 
             energy = 0;
         }
-        return (Math.round(energy * 100))/ 100;
+        return (Math.round(energy * 100d))/ 100d;
 }
 }

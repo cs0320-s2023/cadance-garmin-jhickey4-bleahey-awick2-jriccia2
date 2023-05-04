@@ -1,16 +1,24 @@
 using Toybox.Test;
-class AlgorithTest{
-    (:test)
-    static function hrToEnergyBasicTest(logger) {
-        CadanceAlgorithmDelegate.hrToenergy();
-        return true;
-    }
 
-    (:test)
-    static function hrToEnergyOutOfRange(logger) {
-        var exceptionCaughtLow = false;
-        var exceptionCaughtHigh = false;
-        var exceptionCaughtUndefined = false;
+(:test)
+function hrToEnergyBasicTest(logger) {
+    
+    return true;
+}
+
+(:test)
+function hrToEnergyOutOfRange(logger) {
+    var exceptionCaughtLow = false;
+    var exceptionCaughtHigh = false;
+    var exceptionCaughtUndefined = false;
+
+    try{
+        CadanceAlgorithmDelegate.hrToEnergy(0);
+    } catch (e) {
+        if(e instanceof Toybox.Lang.Exception) {
+            exceptionCaughtLow = true;
+        }
+    }
         
         // try {
         //     var _ = CadanceAlgorithmDelegate.hrToenergy(0);
@@ -35,6 +43,5 @@ class AlgorithTest{
         //     }
         // }
 
-        return exceptionCaughtLow && exceptionCaughtHigh && exceptionCaughtUndefined;
-    }
+    return exceptionCaughtLow && exceptionCaughtHigh && exceptionCaughtUndefined;
 }
