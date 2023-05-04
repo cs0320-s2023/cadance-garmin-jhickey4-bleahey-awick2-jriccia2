@@ -28,12 +28,6 @@ module Rez {
 
             return [rez_cmp_local_text_title, rez_cmp_local_text_Energy, rez_cmp_local_text_heartRate, rez_cmp_local_text_cadence] as Array<WatchUi.Drawable>;
         }
-
-        function GlanceLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-            var rez_cmp_local_text_title = new WatchUi.Text({:identifier=>"title", :color=>Gfx.COLOR_ORANGE, :locX=>(240 * 0.5), :locY=>((240 - dc.getFontHeight(Gfx.FONT_LARGE)) * 0.5), :text=>"Cadance", :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_LARGE});
-
-            return [rez_cmp_local_text_title] as Array<WatchUi.Drawable>;
-        }
     } // Layouts
 
     module Menus {

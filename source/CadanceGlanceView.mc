@@ -2,30 +2,25 @@ import Toybox.Graphics;
 import Toybox.WatchUi;
 
 (:glance) class CadanceGlanceView extends WatchUi.GlanceView {
+    hidden var glanceLayout;
+
     function initialize() {
         GlanceView.initialize();
     }
 
     // Load your resources here
     function onLayout(dc as Dc) as Void {
-        setLayout(Rez.Layouts.GlanceLayout(dc));
+        View.onLayout(dc);
+        dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_BLACK);
     }
 
-    // Called when this View is brought to the foreground. Restore
-    // the state of this View and prepare it to be shown. This includes
-    // loading resources into memory.
-    function onShow() as Void {
-    }
-
-    // Update the view
     function onUpdate(dc as Dc) as Void {
-        dc.clear();
         View.onUpdate(dc);
+        dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_BLACK);
+        dc.clear(); 
+        dc.setColor(Graphics.COLOR_ORANGE, Graphics.COLOR_BLACK);
+        dc.drawText(dc.getWidth()/2, dc.getHeight()/2, Graphics.FONT_LARGE, 
+        "CaDance", Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
     }
 
-    // Called when this View is removed from the screen. Save the
-    // state of this View here. This includes freeing resources from
-    // memory.
-    function onHide() as Void {
-    }
 }

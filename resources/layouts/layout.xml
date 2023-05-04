@@ -44,7 +44,8 @@
     </layout>
 
 
-    <layout id="GlanceLayout">
+    <!-- glanceview seems to be unable to load from resources, commented out for now
+        <layout id="GlanceLayout">
         <label 
         id="title"
         text="Cadance"
@@ -54,6 +55,6 @@
         font="Gfx.FONT_LARGE"
         justification="Gfx.TEXT_JUSTIFY_CENTER"
         />
-    </layout>
+    </layout> -->
 
 </layouts>

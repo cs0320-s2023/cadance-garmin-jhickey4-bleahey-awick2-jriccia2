@@ -31,41 +31,53 @@ _Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceApp_m
     [ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceApp.mc"; @line = 19; ]
     function onStop(state as Dictionary or Null) as Void {
     }
-    [ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceApp.mc"; @line = 24; ]
-    function onGlanceEvent(options) {
-_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceApp_mc_24_36_start:
+    [ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceApp.mc"; @line = 24; glance = true; ]
+    function getGlanceView() {
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceApp_mc_24_39_start:
 [ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceApp.mc" 26 8 ]
-        %tmp.1 = newa 1;
+        %tmp.1 = newa Array<GlanceView> 1;
         %tmp.5 = getv ? :CadanceGlanceView;
         %tmp.2 = newc %tmp.5 ();
         %tmp.6 = dup %tmp.1;
         %tmp.7 = aputv %tmp.6 0 %tmp.2;
         ret %tmp.7;
-_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceApp_mc_24_36_stop:
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceApp_mc_24_39_stop:
     }
-    [ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceApp.mc"; @line = 30; ]
+    [ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceApp.mc"; @line = 29; ]
+    function onGlanceEvent(options) {
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceApp_mc_29_35_start:
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceApp.mc" 30 8 ]
+        %tmp.1 = self;
+        %tmp.2 = getv function %tmp.1 :getGlanceView;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        %tmp.4 = getv function %tmp.3 :onGlanceEvent;
+        %tmp.6 = lgetv %options;
+        invoke %tmp.3 %tmp.4(%tmp.6);
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceApp_mc_29_35_stop:
+    }
+    [ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceApp.mc"; @line = 34; ]
     function getInitialView() as Array<Views or InputDelegates> or Null {
-_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceApp_mc_30_65_start:
-[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceApp.mc" 31 8 ]
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceApp_mc_34_65_start:
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceApp.mc" 35 8 ]
         %tmp.1 = newa Array<Views or InputDelegates> 1;
         %tmp.5 = getv ? :CadanceView;
         %tmp.2 = newc %tmp.5 ();
         %tmp.6 = dup %tmp.1;
         %tmp.7 = aputv %tmp.6 0 %tmp.2;
         ret %tmp.7;
-_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceApp_mc_30_65_stop:
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceApp_mc_34_65_stop:
     }
 }
-[ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceApp.mc"; @line = 36; ]
+[ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceApp.mc"; @line = 40; ]
 function getApp() as CadanceApp {
-_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceApp_mc_36_32_start:
-[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceApp.mc" 37 4 ]
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceApp_mc_40_32_start:
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceApp.mc" 41 4 ]
     %tmp.1 = getm $.Toybox.Application;
     %tmp.2 = getv function %tmp.1 :getApp;
     %tmp.3 = invoke %tmp.1 %tmp.2();
     %tmp.4 = as %tmp.3 CadanceApp;
     ret %tmp.4;
-_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceApp_mc_36_32_stop:
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceApp_mc_40_32_stop:
 }
 [ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceApp.mc"; @line = 1; ]
 <init> {

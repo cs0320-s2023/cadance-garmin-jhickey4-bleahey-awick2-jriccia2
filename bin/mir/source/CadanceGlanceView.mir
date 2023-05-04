@@ -11,48 +11,87 @@ class CadanceGlanceView extends WatchUi.GlanceView{
     static
     <init> {
     }
-    [ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceGlanceView.mc"; @line = 5; ]
+    [ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceGlanceView.mc"; @line = 5; @position = 15; ]
+    protected
+    var glanceLayout;
+    [ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceGlanceView.mc"; @line = 7; ]
     function initialize() as Void {
-_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceGlanceView_mc_5_26_start:
-[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceGlanceView.mc" 6 8 ]
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceGlanceView_mc_7_26_start:
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceGlanceView.mc" 8 8 ]
         %tmp.2 = getv ? :GlanceView;
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceGlanceView_mc_5_26_stop:
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceGlanceView_mc_7_26_stop:
     }
-    [ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceGlanceView.mc"; @line = 10; ]
+    [ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceGlanceView.mc"; @line = 12; ]
     function onLayout(dc as Dc) as Void {
-_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceGlanceView_mc_10_40_start:
-[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceGlanceView.mc" 11 8 ]
-        %tmp.1 = self;
-        %tmp.2 = getv function %tmp.1 :setLayout;
-        %tmp.4 = getv ? :Rez;
-        %tmp.5 = getv %tmp.4 :Layouts;
-        %tmp.6 = getv function %tmp.5 :GlanceLayout;
-        %tmp.8 = lgetv %dc;
-        %tmp.9 = invoke %tmp.5 %tmp.6(%tmp.8);
-        invoke %tmp.1 %tmp.2(%tmp.9);
-_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceGlanceView_mc_10_40_stop:
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceGlanceView_mc_12_40_start:
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceGlanceView.mc" 13 8 ]
+        %tmp.2 = getv ? :View;
+        %tmp.3 = getv function %tmp.2 :onLayout;
+        %tmp.5 = lgetv %dc;
+        invoke %tmp.2 %tmp.3(%tmp.5);
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceGlanceView.mc" 14 8 ]
+        %tmp.6 = lgetv %dc;
+        %tmp.7 = getv function %tmp.6 :setColor;
+        %tmp.8 = getm $.Toybox.Graphics;
+        %tmp.9 = getv %tmp.8 :COLOR_BLACK;
+        %tmp.10 = getm $.Toybox.Graphics;
+        %tmp.11 = getv %tmp.10 :COLOR_BLACK;
+        invoke %tmp.6 %tmp.7(%tmp.9, %tmp.11);
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceGlanceView_mc_12_40_stop:
     }
     [ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceGlanceView.mc"; @line = 17; ]
-    function onShow() as Void {
-    }
-    [ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceGlanceView.mc"; @line = 21; ]
     function onUpdate(dc as Dc) as Void {
-_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceGlanceView_mc_21_40_start:
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceGlanceView_mc_17_40_start:
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceGlanceView.mc" 18 8 ]
+        %tmp.2 = getv ? :View;
+        %tmp.3 = getv function %tmp.2 :onUpdate;
+        %tmp.5 = lgetv %dc;
+        invoke %tmp.2 %tmp.3(%tmp.5);
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceGlanceView.mc" 19 8 ]
+        %tmp.6 = lgetv %dc;
+        %tmp.7 = getv function %tmp.6 :setColor;
+        %tmp.8 = getm $.Toybox.Graphics;
+        %tmp.9 = getv %tmp.8 :COLOR_BLACK;
+        %tmp.10 = getm $.Toybox.Graphics;
+        %tmp.11 = getv %tmp.10 :COLOR_BLACK;
+        invoke %tmp.6 %tmp.7(%tmp.9, %tmp.11);
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceGlanceView.mc" 20 8 ]
+        %tmp.12 = lgetv %dc;
+        %tmp.13 = getv function %tmp.12 :clear;
+        invoke %tmp.12 %tmp.13();
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceGlanceView.mc" 21 8 ]
+        %tmp.14 = lgetv %dc;
+        %tmp.15 = getv function %tmp.14 :setColor;
+        %tmp.16 = getm $.Toybox.Graphics;
+        %tmp.17 = getv %tmp.16 :COLOR_ORANGE;
+        %tmp.18 = getm $.Toybox.Graphics;
+        %tmp.19 = getv %tmp.18 :COLOR_BLACK;
+        invoke %tmp.14 %tmp.15(%tmp.17, %tmp.19);
 [ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceGlanceView.mc" 22 8 ]
-        %tmp.1 = lgetv %dc;
-        %tmp.2 = getv function %tmp.1 :clear;
-        invoke %tmp.1 %tmp.2();
-[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceGlanceView.mc" 23 8 ]
-        %tmp.4 = getv ? :View;
-        %tmp.5 = getv function %tmp.4 :onUpdate;
-        %tmp.7 = lgetv %dc;
-        invoke %tmp.4 %tmp.5(%tmp.7);
-_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceGlanceView_mc_21_40_stop:
-    }
-    [ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceGlanceView.mc"; @line = 29; ]
-    function onHide() as Void {
+        %tmp.20 = lgetv %dc;
+        %tmp.21 = getv function %tmp.20 :drawText;
+        %tmp.22 = lgetv %dc;
+        %tmp.23 = getv function %tmp.22 :getWidth;
+        %tmp.24 = invoke %tmp.22 %tmp.23();
+        %tmp.25 = 2;
+        %tmp.26 = div %tmp.24 %tmp.25;
+        %tmp.27 = lgetv %dc;
+        %tmp.28 = getv function %tmp.27 :getHeight;
+        %tmp.29 = invoke %tmp.27 %tmp.28();
+        %tmp.30 = 2;
+        %tmp.31 = div %tmp.29 %tmp.30;
+        %tmp.32 = getm $.Toybox.Graphics;
+        %tmp.33 = getv %tmp.32 :FONT_LARGE;
+        %tmp.34 = "CaDance";
+        %tmp.35 = getm $.Toybox.Graphics;
+        %tmp.36 = getv %tmp.35 :TEXT_JUSTIFY_CENTER;
+        %tmp.37 = getm $.Toybox.Graphics;
+        %tmp.38 = getv %tmp.37 :TEXT_JUSTIFY_VCENTER;
+        %tmp.39 = bitor %tmp.36 %tmp.38;
+        invoke %tmp.20 %tmp.21(%tmp.26, %tmp.31, %tmp.33, %tmp.34, %tmp.39);
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceGlanceView_mc_17_40_stop:
     }
 }
 [ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceGlanceView.mc"; @line = 1; ]
