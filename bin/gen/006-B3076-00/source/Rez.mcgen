@@ -20,13 +20,13 @@ module Rez {
         function MainLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
             var rez_cmp_local_text_title = new WatchUi.Text({:identifier=>"title", :color=>Gfx.COLOR_ORANGE, :locX=>(240 * 0.5), :locY=>(240 * (10 / 100.0)), :text=>"CaDance", :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_SMALL});
 
-            var rez_cmp_local_text_Recommendation = new WatchUi.Text({:identifier=>"Recommendation", :color=>Gfx.COLOR_WHITE, :locX=>(240 * (10 / 100.0)), :locY=>(240 * (40 / 100.0)), :text=>"Recommended BPM: ", :justification=>Gfx.TEXT_JUSTIFY_LEFT, :font=>Gfx.FONT_XTINY});
+            var rez_cmp_local_text_Energy = new WatchUi.Text({:identifier=>"Energy", :color=>Gfx.COLOR_WHITE, :locX=>(240 * (10 / 100.0)), :locY=>(240 * (40 / 100.0)), :text=>"Recommended Energy: ", :justification=>Gfx.TEXT_JUSTIFY_LEFT, :font=>Gfx.FONT_XTINY});
 
             var rez_cmp_local_text_heartRate = new WatchUi.Text({:identifier=>"heartRate", :color=>Gfx.COLOR_WHITE, :locX=>(240 * (10 / 100.0)), :locY=>(240 * (50 / 100.0)), :text=>"Heart Rate: ", :justification=>Gfx.TEXT_JUSTIFY_LEFT, :font=>Gfx.FONT_XTINY});
 
             var rez_cmp_local_text_cadence = new WatchUi.Text({:identifier=>"cadence", :color=>Gfx.COLOR_WHITE, :locX=>(240 * (10 / 100.0)), :locY=>(240 * (60 / 100.0)), :text=>"Cadence: ", :justification=>Gfx.TEXT_JUSTIFY_LEFT, :font=>Gfx.FONT_XTINY});
 
-            return [rez_cmp_local_text_title, rez_cmp_local_text_Recommendation, rez_cmp_local_text_heartRate, rez_cmp_local_text_cadence] as Array<WatchUi.Drawable>;
+            return [rez_cmp_local_text_title, rez_cmp_local_text_Energy, rez_cmp_local_text_heartRate, rez_cmp_local_text_cadence] as Array<WatchUi.Drawable>;
         }
 
         function GlanceLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {

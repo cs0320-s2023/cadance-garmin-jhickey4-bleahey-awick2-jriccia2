@@ -3,18 +3,15 @@ import Toybox.WatchUi;
 import Toybox.Sensor;
 
 class CadanceView extends WatchUi.View {
-    //make liberal use of hiddenvar to store things like 
-    //song bpm, song length, etc.
-
-    var bpmText = "Reccommended BPM: ";
+    var energyText = "Recommended Energy: ";
     var cadenceText = "Cadence: ";
     var heartRateText = "Heart Rate: ";
 
-    var dataDelegate = new CadanceDataDelegate(self);
+    hidden var dataDelegate = new CadanceDataDelegate();
 
-    var bpmLabel;
-    var cadenceLabel;
-    var heartRateLabel;
+    hidden var energyLabel;
+    hidden var cadenceLabel;
+    hidden var heartRateLabel;
 
     function initialize() {
         View.initialize();
@@ -23,10 +20,10 @@ class CadanceView extends WatchUi.View {
     // Load your resources here
     function onLayout(dc as Dc) as Void {
         setLayout(Rez.Layouts.MainLayout(dc));
-        //TODO: add these labels into the layout
-        cadenceLabel = View.findDrawableById("cadence");
-        bpmLabel = View.findDrawableById("Recommendation");
+        
+        energyLabel = View.findDrawableById("Energy");
         heartRateLabel = View.findDrawableById("heartRate");
+        cadenceLabel = View.findDrawableById("cadence");
 
         Sensor.setEnabledSensors([Sensor.SENSOR_HEARTRATE]);
         Sensor.enableSensorEvents(method(:onSensor));
@@ -44,8 +41,7 @@ class CadanceView extends WatchUi.View {
         dataDelegate.updateFields(sensorInfo);
 
         if(dataDelegate.getHeartRate != 0 ||
-            dataDelegate.getCadence != 0 ||
-            dataDelegate.getBPM != 0){
+            dataDelegate.getCadence != 0){
             requestUpdate();
         }
     }
@@ -55,7 +51,7 @@ class CadanceView extends WatchUi.View {
         dc.clear();
         View.onUpdate(dc);
 
-        bpmLabel.setText(bpmText + dataDelegate.getBPM());
+        energyLabel.setText(energyText + dataDelegate.getEnergy());
         cadenceLabel.setText(cadenceText + dataDelegate.getCadence());
         heartRateLabel.setText(heartRateText + dataDelegate.getHeartRate());
     }

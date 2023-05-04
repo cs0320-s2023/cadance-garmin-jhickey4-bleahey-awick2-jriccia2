@@ -12,8 +12,8 @@
         />
 
         <label
-        id="Recommendation"
-        text="Recommended BPM: "
+        id="Energy"
+        text="Recommended Energy: "
         x="10%"
         y="40%"
         color="Gfx.COLOR_WHITE"

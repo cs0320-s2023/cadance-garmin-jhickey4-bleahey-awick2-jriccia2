@@ -90,12 +90,12 @@ _Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_bin_gen_006_B3076_0
             lputv %rez_cmp_local_text_title.1 %tmp.1;
 [ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/bin/gen/006-B3076-00/source/Rez.mcgen" 23 12 ]
             [ "_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_bin_gen_006_B3076_00_source_Rez_mcgen_20_74_start" "_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_bin_gen_006_B3076_00_source_Rez_mcgen_20_74_stop" ]
-            %rez_cmp_local_text_Recommendation.2 = local;
+            %rez_cmp_local_text_Energy.2 = local;
             %tmp.52 = getm $.Toybox.WatchUi;
             %tmp.53 = getv function ? %tmp.52 :Text;
             %tmp.54 = newd 7;
             %tmp.56 = const :identifier;
-            %tmp.57 = "Recommendation";
+            %tmp.57 = "Energy";
             %tmp.58 = dup %tmp.54;
             %tmp.59 = aputv %tmp.58 %tmp.56 %tmp.57;
             %tmp.61 = const :color;
@@ -120,7 +120,7 @@ _Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_bin_gen_006_B3076_0
             %tmp.82 = dup %tmp.74;
             %tmp.83 = aputv %tmp.82 %tmp.76 %tmp.81;
             %tmp.85 = const :text;
-            %tmp.86 = "Recommended BPM: ";
+            %tmp.86 = "Recommended Energy: ";
             %tmp.87 = dup %tmp.83;
             %tmp.88 = aputv %tmp.87 %tmp.85 %tmp.86;
             %tmp.90 = const :justification;
@@ -134,7 +134,7 @@ _Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_bin_gen_006_B3076_0
             %tmp.99 = dup %tmp.94;
             %tmp.100 = aputv %tmp.99 %tmp.96 %tmp.98;
             %tmp.50 = newc %tmp.53 (%tmp.100);
-            lputv %rez_cmp_local_text_Recommendation.2 %tmp.50;
+            lputv %rez_cmp_local_text_Energy.2 %tmp.50;
 [ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/bin/gen/006-B3076-00/source/Rez.mcgen" 25 12 ]
             [ "_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_bin_gen_006_B3076_00_source_Rez_mcgen_20_74_start" "_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_bin_gen_006_B3076_00_source_Rez_mcgen_20_74_stop" ]
             %rez_cmp_local_text_heartRate.3 = local;
@@ -234,7 +234,7 @@ _Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_bin_gen_006_B3076_0
             %tmp.205 = lgetv %rez_cmp_local_text_title.1;
             %tmp.206 = dup %tmp.203;
             %tmp.207 = aputv %tmp.206 0 %tmp.205;
-            %tmp.209 = lgetv %rez_cmp_local_text_Recommendation.2;
+            %tmp.209 = lgetv %rez_cmp_local_text_Energy.2;
             %tmp.210 = dup %tmp.207;
             %tmp.211 = aputv %tmp.210 1 %tmp.209;
             %tmp.213 = lgetv %rez_cmp_local_text_heartRate.3;

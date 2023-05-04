@@ -2,24 +2,21 @@ using Toybox.Math;
 using Toybox.Lang;
 
 class CadanceAlgorithmDelegate {
-    function hrToEnergy(hr as Lang.Number) as Lang.Number {
+    //TODO: decide whether to use their heart rate ranges to make the energy more accurate
+    //Computes the energy of a run based on the heart rate and cadence
+    //Heart rate is a number between 90 and 210
+    //retuns -1 as a flag for an invalid heart rate
+    static function hrToEnergy(hr as Lang.Number) as Lang.Double {
         if (hr < 90 || hr > 210) {
-            //out of range: throw error
+            return -1d;
         }
-        var res = (hr - 90) / (210 - 90);
-        res = Math.round(res * 100) / 100;
+        var res = (hr - 90d) / (210d - 90d);
+        res = (Math.round(res * 100)) / 100d;
+        
         return res;
     }
 
-    function getValidTempos(tempo as Lang.Number) as Lang.Array {
-        var res = [];
-        res.add(tempo);
-        res.add(Math.round(tempo / 2));
-        res.add(Math.round(tempo * (2 / 3)));
-        return res;
-    }
-
-    function cadenceToEnergy(
+    static function cadenceToEnergy(
     cadence as Lang.Number,
     height as Lang.Number,
     male as Lang.Boolean
@@ -42,6 +39,6 @@ class CadanceAlgorithmDelegate {
         } else if (energy < 0) { 
             energy = 0;
         }
-        return Math.round(energy * 100) / 100;
+        return (Math.round(energy * 100))/ 100;
 }
 }
