@@ -123,28 +123,28 @@
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
         <entry id="8389346" symbol="text"/>
-        <entry field="true" id="30" symbol="heartRateText"/>
+        <entry field="true" id="31" symbol="heartRateText"/>
         <entry id="10" object="true" symbol="CadanceAlgorithmDelegate"/>
-        <entry id="34" method="true" symbol="getCadence"/>
+        <entry id="35" method="true" symbol="getCadence"/>
         <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
         <entry id="8" module="true" symbol="globals/Rez/Menus"/>
-        <entry id="42" method="true" symbol="MainLayout"/>
-        <entry id="38" method="true" symbol="updateFields"/>
-        <entry field="true" id="26" symbol="dataDelegate"/>
-        <entry field="true" id="28" symbol="energyText"/>
+        <entry id="43" method="true" symbol="MainLayout"/>
+        <entry id="39" method="true" symbol="updateFields"/>
+        <entry field="true" id="27" symbol="dataDelegate"/>
+        <entry field="true" id="29" symbol="energyText"/>
         <entry id="8388647" module="true" symbol="UserProfile"/>
         <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-        <entry field="true" id="19" symbol="glanceLayout"/>
-        <entry field="true" id="37" symbol="profile"/>
+        <entry field="true" id="20" symbol="glanceLayout"/>
+        <entry field="true" id="38" symbol="profile"/>
         <entry id="8388649" module="true" object="true" symbol="Test"/>
         <entry id="2" module="true" symbol="globals/CadanceAlgorithmDelegate/&lt;statics&gt;"/>
-        <entry field="true" id="43" symbol="AppName"/>
+        <entry field="true" id="44" symbol="AppName"/>
         <entry id="9" module="true" symbol="globals/Rez/Strings"/>
         <entry id="8388772" module="true" object="true" symbol="Fonts"/>
-        <entry id="36" method="true" symbol="getHeartRate"/>
+        <entry id="37" method="true" symbol="getHeartRate"/>
         <entry id="11" object="true" symbol="CadanceApp"/>
         <entry id="8388648" module="true" symbol="WatchUi"/>
-        <entry field="true" id="41" symbol="music"/>
+        <entry field="true" id="42" symbol="music"/>
         <entry id="3" module="true" symbol="globals/Rez"/>
         <entry id="13" object="true" symbol="CadanceGlanceView"/>
         <entry field="true" id="8388959" symbol="cadence"/>
@@ -152,36 +152,36 @@
         <entry id="8389124" method="true" symbol="onUpdate"/>
         <entry field="true" id="8389065" symbol="locY"/>
         <entry field="true" id="8389064" symbol="locX"/>
-        <entry field="true" id="27" symbol="energyLabel"/>
+        <entry field="true" id="28" symbol="energyLabel"/>
         <entry id="15" object="true" symbol="Constants"/>
         <entry id="8388771" module="true" object="true" symbol="Drawables"/>
         <entry id="8389348" symbol="font"/>
-        <entry field="true" id="33" symbol="energy"/>
-        <entry id="23" module="true" symbol="Menus"/>
+        <entry field="true" id="34" symbol="energy"/>
+        <entry id="24" module="true" symbol="Menus"/>
         <entry id="8389275" method="true" symbol="getApp"/>
         <entry id="7" module="true" symbol="globals/Rez/Layouts"/>
-        <entry field="true" id="32" symbol="dynamics"/>
+        <entry field="true" id="33" symbol="dynamics"/>
         <entry id="8389122" method="true" symbol="onLayout"/>
         <entry field="true" id="8389063" symbol="identifier"/>
-        <entry field="true" id="39" symbol="hr"/>
+        <entry field="true" id="40" symbol="hr"/>
         <entry id="8389349" symbol="justification"/>
         <entry id="6" module="true" symbol="globals/Rez/JsonData"/>
         <entry id="16" object="true" symbol="HeartRateRangeException"/>
         <entry id="14" object="true" symbol="CadanceView"/>
         <entry id="4" module="true" symbol="globals/Rez/Drawables"/>
-        <entry field="true" id="25" symbol="cadenceText"/>
-        <entry id="35" method="true" symbol="getEnergy"/>
+        <entry field="true" id="26" symbol="cadenceText"/>
+        <entry id="36" method="true" symbol="getEnergy"/>
         <entry id="17" object="true" symbol="TestConstants"/>
         <entry id="8389587" method="true" symbol="getErrorMessage"/>
         <entry id="8388769" module="true" object="true" symbol="Rez"/>
-        <entry field="true" id="24" symbol="cadenceLabel"/>
+        <entry field="true" id="25" symbol="cadenceLabel"/>
         <entry id="8388640" module="true" symbol="Lang"/>
-        <entry id="31" method="true" symbol="onSensor"/>
+        <entry id="32" method="true" symbol="onSensor"/>
         <entry id="8390088" module="true" object="true" symbol="JsonData"/>
         <entry id="12" object="true" symbol="CadanceDataDelegate"/>
-        <entry field="true" id="40" symbol="LauncherIcon"/>
+        <entry field="true" id="41" symbol="LauncherIcon"/>
         <entry id="8388610" symbol="statics"/>
-        <entry id="21" method="true" symbol="hrToEnergy"/>
+        <entry id="22" method="true" symbol="hrToEnergy"/>
         <entry id="8389123" method="true" symbol="onShow"/>
         <entry id="8388643" module="true" symbol="Sensor"/>
         <entry id="8391456" method="true" symbol="onGlanceEvent"/>
@@ -190,18 +190,19 @@
         <entry field="true" id="8388960" symbol="heartRate"/>
         <entry id="8388702" method="true" symbol="initialize"/>
         <entry id="8389279" method="true" symbol="onStart"/>
-        <entry field="true" id="18" symbol="view"/>
+        <entry field="true" id="19" symbol="view"/>
         <entry id="8388641" module="true" symbol="Math"/>
         <entry id="8389280" method="true" symbol="getInitialView"/>
         <entry id="8389281" method="true" symbol="onStop"/>
         <entry id="8389347" symbol="color"/>
-        <entry id="22" module="true" symbol="Layouts"/>
-        <entry field="true" id="29" symbol="heartRateLabel"/>
+        <entry field="true" id="18" symbol="undefined"/>
+        <entry id="23" module="true" symbol="Layouts"/>
+        <entry field="true" id="30" symbol="heartRateLabel"/>
         <entry id="5" module="true" symbol="globals/Rez/Fonts"/>
         <entry id="8391457" method="true" symbol="getGlanceView"/>
         <entry id="8389125" method="true" symbol="onHide"/>
         <entry id="8388635" module="true" symbol="Application"/>
-        <entry id="20" method="true" symbol="cadenceToEnergy"/>
+        <entry id="21" method="true" symbol="cadenceToEnergy"/>
     </symbolTable>
     <localVars>
         <entry arg="true" endPc="268435662" name="dc" stackId="1" startPc="268435614"/>
@@ -252,22 +253,22 @@
     </annotations>
     <dataEntryOffsetMappings>
         <dataEntry label="globals" offset="95" parentId="" symbolId="globals" type="module"/>
-        <dataEntry label="globals/CadanceApp" offset="214" parentId="globals" symbolId="CadanceApp" type="class"/>
-        <dataEntry label="globals/CadanceGlanceView" offset="309" parentId="globals" symbolId="CadanceGlanceView" type="class"/>
-        <dataEntry label="globals/CadanceAlgorithmDelegate" offset="689" parentId="globals" symbolId="CadanceAlgorithmDelegate" type="class"/>
-        <dataEntry label="globals/CadanceAlgorithmDelegate/&lt;statics&gt;" offset="736" parentId="CadanceAlgorithmDelegate" symbolId="&lt;statics&gt;" type="module"/>
-        <dataEntry label="globals/TestConstants" offset="783" parentId="globals" symbolId="TestConstants" type="class"/>
-        <dataEntry label="globals/Rez" offset="830" parentId="globals" symbolId="Rez" type="module"/>
-        <dataEntry label="globals/Constants" offset="909" parentId="globals" symbolId="Constants" type="class"/>
-        <dataEntry label="globals/CadanceView" offset="956" parentId="globals" symbolId="CadanceView" type="class"/>
-        <dataEntry label="globals/CadanceDataDelegate" offset="1099" parentId="globals" symbolId="CadanceDataDelegate" type="class"/>
-        <dataEntry label="globals/HeartRateRangeException" offset="1218" parentId="globals" symbolId="HeartRateRangeException" type="class"/>
-        <dataEntry label="globals/Rez/Drawables" offset="1281" parentId="Rez" symbolId="Drawables" type="module"/>
-        <dataEntry label="globals/Rez/Layouts" offset="1328" parentId="Rez" symbolId="Layouts" type="module"/>
-        <dataEntry label="globals/Rez/Menus" offset="1367" parentId="Rez" symbolId="Menus" type="module"/>
-        <dataEntry label="globals/Rez/Fonts" offset="1398" parentId="Rez" symbolId="Fonts" type="module"/>
-        <dataEntry label="globals/Rez/Strings" offset="1429" parentId="Rez" symbolId="Strings" type="module"/>
-        <dataEntry label="globals/Rez/JsonData" offset="1468" parentId="Rez" symbolId="JsonData" type="module"/>
+        <dataEntry label="globals/CadanceApp" offset="222" parentId="globals" symbolId="CadanceApp" type="class"/>
+        <dataEntry label="globals/CadanceGlanceView" offset="317" parentId="globals" symbolId="CadanceGlanceView" type="class"/>
+        <dataEntry label="globals/CadanceAlgorithmDelegate" offset="697" parentId="globals" symbolId="CadanceAlgorithmDelegate" type="class"/>
+        <dataEntry label="globals/CadanceAlgorithmDelegate/&lt;statics&gt;" offset="744" parentId="CadanceAlgorithmDelegate" symbolId="&lt;statics&gt;" type="module"/>
+        <dataEntry label="globals/TestConstants" offset="791" parentId="globals" symbolId="TestConstants" type="class"/>
+        <dataEntry label="globals/Rez" offset="838" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/Constants" offset="917" parentId="globals" symbolId="Constants" type="class"/>
+        <dataEntry label="globals/CadanceView" offset="964" parentId="globals" symbolId="CadanceView" type="class"/>
+        <dataEntry label="globals/CadanceDataDelegate" offset="1107" parentId="globals" symbolId="CadanceDataDelegate" type="class"/>
+        <dataEntry label="globals/HeartRateRangeException" offset="1226" parentId="globals" symbolId="HeartRateRangeException" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="1289" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="1336" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Menus" offset="1375" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry label="globals/Rez/Fonts" offset="1406" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="1437" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/Rez/JsonData" offset="1476" parentId="Rez" symbolId="JsonData" type="module"/>
     </dataEntryOffsetMappings>
     <functions>
         <functionEntry accessMode="public" endPc="268435478" name="&lt;init&gt;" parent="CadanceApp" startPc="268435460">

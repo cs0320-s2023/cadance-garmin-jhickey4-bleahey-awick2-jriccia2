@@ -1,5 +1,7 @@
 using Toybox.Test;
 
+var undefined;
+
 (:test)
 function hrToEnergyBasicTest(logger) {
     
@@ -19,29 +21,22 @@ function hrToEnergyOutOfRange(logger) {
             exceptionCaughtLow = true;
         }
     }
-        
-        // try {
-        //     var _ = CadanceAlgorithmDelegate.hrToenergy(0);
-        // } 
-        // catch (e instanceof Toybox.Lang.Exception) {
-        //     if(e instance of HeartRateRangeException) {
-        //         exceptionCaughtLow = true;
-        //     }
-        // }
-        // try {
-        //     CadanceAlgorithmDelegate.hrToenergy(211);
-        // } catch (e  instanceof Toybox.Lang.Exception) {
-        //     if(e instance of HeartRateRangeException) {
-        //         exceptionCaughtHigh = true;
-        //     }
-        // }
-        // try{
-        //     CadanceAlgorithmDelegate.hrToenergy(null);
-        // } catch (e instanceof Toybox.Lang.Exception) {
-        //     if(e instance of HeartRateRangeException) {
-        //         exceptionCaughtUndefined = true;
-        //     }
-        // }
+
+    try{
+        CadanceAlgorithmDelegate.hrToEnergy(211);
+    } catch (e) {
+        if(e instanceof Toybox.Lang.Exception) {
+            exceptionCaughtHigh = true;
+        }
+    }
+
+    try{
+        CadanceAlgorithmDelegate.hrToEnergy(-1);
+    } catch (e) {
+        if(e instanceof Toybox.Lang.Exception) {
+            exceptionCaughtUndefined = true;
+        }
+    }
 
     return exceptionCaughtLow && exceptionCaughtHigh && exceptionCaughtUndefined;
 }
