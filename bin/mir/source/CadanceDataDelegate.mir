@@ -134,27 +134,6 @@ _Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataD
         goto @_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_44_19_if_end;
 _Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_44_19_if_end:
 _Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_42_12_if_end:
-[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" 48 12 ]
-        %tmp.32 = getv ? :System;
-        %tmp.33 = getv function %tmp.32 :println;
-        %tmp.34 = "Heart Rate: ";
-        %tmp.36 = getv ? :heartRate;
-        %tmp.37 = add %tmp.34 %tmp.36;
-        invoke %tmp.32 %tmp.33(%tmp.37);
-[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" 49 12 ]
-        %tmp.39 = getv ? :System;
-        %tmp.40 = getv function %tmp.39 :println;
-        %tmp.41 = "Cadence: ";
-        %tmp.43 = getv ? :cadence;
-        %tmp.44 = add %tmp.41 %tmp.43;
-        invoke %tmp.39 %tmp.40(%tmp.44);
-[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" 50 12 ]
-        %tmp.46 = getv ? :System;
-        %tmp.47 = getv function %tmp.46 :println;
-        %tmp.48 = "BPM: ";
-        %tmp.50 = getv ? :bpm;
-        %tmp.51 = add %tmp.48 %tmp.50;
-        invoke %tmp.46 %tmp.47(%tmp.51);
 _Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_39_40_stop:
         goto @_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_39_8_if_end;
 _Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_39_8_if_end:

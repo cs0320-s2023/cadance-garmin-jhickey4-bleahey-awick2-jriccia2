@@ -2,7 +2,7 @@ import Toybox.Graphics;
 import Toybox.WatchUi;
 
 class CadanceGlanceView extends WatchUi.GlanceView {
-    function initialize() as Void {
+    function initialize() {
         GlanceView.initialize();
     }
 

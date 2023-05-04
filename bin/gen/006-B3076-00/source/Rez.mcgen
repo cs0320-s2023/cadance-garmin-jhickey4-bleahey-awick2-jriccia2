@@ -18,7 +18,7 @@ module Rez {
 
     module Layouts {
         function MainLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-            var rez_cmp_local_text_title = new WatchUi.Text({:identifier=>"title", :color=>Gfx.COLOR_ORANGE, :locX=>(240 * 0.5), :locY=>(240 * (10 / 100.0)), :text=>"Cadance", :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_SMALL});
+            var rez_cmp_local_text_title = new WatchUi.Text({:identifier=>"title", :color=>Gfx.COLOR_ORANGE, :locX=>(240 * 0.5), :locY=>(240 * (10 / 100.0)), :text=>"CaDance", :justification=>Gfx.TEXT_JUSTIFY_CENTER, :font=>Gfx.FONT_SMALL});
 
             var rez_cmp_local_text_Recommendation = new WatchUi.Text({:identifier=>"Recommendation", :color=>Gfx.COLOR_WHITE, :locX=>(240 * (10 / 100.0)), :locY=>(240 * (40 / 100.0)), :text=>"Recommended BPM: ", :justification=>Gfx.TEXT_JUSTIFY_LEFT, :font=>Gfx.FONT_XTINY});
 

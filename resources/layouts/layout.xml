@@ -3,7 +3,7 @@
     <layout id="MainLayout">
         <label 
         id="title"
-        text="Cadance"
+        text="CaDance"
         x="center" 
         y="10%" 
         color="Gfx.COLOR_ORANGE"

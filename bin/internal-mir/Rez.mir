@@ -73,7 +73,7 @@ _Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_bin_gen_006_B3076_0
             %tmp.31 = dup %tmp.23;
             %tmp.32 = aputv %tmp.31 %tmp.25 %tmp.30;
             %tmp.34 = const :text;
-            %tmp.35 = "Cadance";
+            %tmp.35 = "CaDance";
             %tmp.36 = dup %tmp.32;
             %tmp.37 = aputv %tmp.36 %tmp.34 %tmp.35;
             %tmp.39 = const :justification;

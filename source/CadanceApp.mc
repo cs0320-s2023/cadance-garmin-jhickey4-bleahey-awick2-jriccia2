@@ -28,7 +28,6 @@ class CadanceApp extends Application.AppBase {
 
     // Return the initial view of your application here
     function getInitialView() as Array<Views or InputDelegates>? {
-        System.print("initial view retrieved");
         return [ new CadanceView()] as Array<Views or InputDelegates>;
     }
 
