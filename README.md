@@ -53,16 +53,11 @@ https://developer.garmin.com/connect-iq/connect-iq-basics/
 
 ### Running the application
 
-Once configured, you may run the simulator by selecting "Run without debugging"
+Once configured, you must first build the project from the command palette
+("Monkey C: Build Current Project").
+Then, run the simulator by selecting "Run without debugging"
 from the "Run" menu in VSCode. This will open the simulator and run the
-application.
-
-<!-- Alternatively, you may run the monkeydo
-script from the bin directory of as follows:
-
-monkeydo.bat path\to\projects\bin\MyApp.prg -->
-
-<!-- See if this test script works. -->
+application. Alternat
 
 Once the simulator is open, you will notice the fields such as "Heart Rate", are
 not populated. While there are several ways of simulating these fields, we
@@ -90,13 +85,12 @@ assertions in the console.
 
 ### Unit Tests
 
-Unit tests are provided in the 'test' branch of the project. These tests are
-run using the 'monkeyc' compiler. The following command will run all unit tests
-in the project:
+Unit tests are provided in the 'test' branch of the project. To run tests,
+navigate the root directory of the project then use the command pallete to run
+the command "Monkey C: Run Tests". This will run all tests in the project and
+display the results in the debug console.
 
-For instructions on how to build with tests and run them in the simulator,
-refer to the following link:
-
+For more information on unit testing in MonkeyC, visit this link:
 https://developer.garmin.com/connect-iq/core-topics/unit-testing/
 
 ## Learn More
