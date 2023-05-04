@@ -123,6 +123,7 @@
         <entry id="8388647" module="true" symbol="UserProfile"/>
         <entry field="true" id="8388611" module="true" symbol="Toybox"/>
         <entry field="true" id="34" symbol="profile"/>
+        <entry id="8388649" module="true" object="true" symbol="Test"/>
         <entry id="2" module="true" symbol="globals/CadanceAlgorithmDelegate/&lt;statics&gt;"/>
         <entry field="true" id="40" symbol="AppName"/>
         <entry id="9" module="true" symbol="globals/Rez/Strings"/>

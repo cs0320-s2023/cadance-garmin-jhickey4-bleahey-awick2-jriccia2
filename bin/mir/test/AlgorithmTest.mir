@@ -1,0 +1,13 @@
+[ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/test/AlgorithmTest.mc"; @line = 1; ]
+using Toybox.Test;
+[ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/test/AlgorithmTest.mc"; @line = 3; test = true; ]
+function minmaxavgTestLast(logger) {
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_test_AlgorithmTest_mc_4_35_start:
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/test/AlgorithmTest.mc" 14 4 ]
+    %tmp.1 = true;
+    ret %tmp.1;
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_test_AlgorithmTest_mc_4_35_stop:
+}
+[ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/test/AlgorithmTest.mc"; @line = 1; ]
+<init> {
+}
