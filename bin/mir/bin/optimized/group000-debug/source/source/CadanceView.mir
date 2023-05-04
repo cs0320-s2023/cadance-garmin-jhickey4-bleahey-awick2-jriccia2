@@ -1,0 +1,162 @@
+[ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/bin/optimized/group000-debug/source/source/CadanceView.mc"; @line = 1; ]
+using Rez;
+[ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/bin/optimized/group000-debug/source/source/CadanceView.mc"; @line = 2; ]
+import Toybox.Graphics;
+[ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/bin/optimized/group000-debug/source/source/CadanceView.mc"; @line = 3; ]
+import Toybox.WatchUi;
+[ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/bin/optimized/group000-debug/source/source/CadanceView.mc"; @line = 4; ]
+import Toybox.Sensor;
+[ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/bin/optimized/group000-debug/source/source/CadanceView.mc"; @line = 6; ]
+class CadanceView extends WatchUi.View{
+    [ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/bin/optimized/group000-debug/source/source/CadanceView.mc"; @line = 6; ]
+    <init> {
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/bin/optimized/group000-debug/source/source/CadanceView.mc" 11 13 ]
+        %tmp.4 = getv ? :CadanceDataDelegate;
+        %tmp.1 = newc %tmp.4 ();
+        putv self :dataDelegate %tmp.1;
+    }
+    [ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/bin/optimized/group000-debug/source/source/CadanceView.mc"; @line = 6; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/bin/optimized/group000-debug/source/source/CadanceView.mc"; @line = 7; @position = 6; ]
+    var energyText = "Recommended Energy: ";
+    [ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/bin/optimized/group000-debug/source/source/CadanceView.mc"; @line = 8; @position = 6; ]
+    var cadenceText = "Cadence: ";
+    [ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/bin/optimized/group000-debug/source/source/CadanceView.mc"; @line = 9; @position = 6; ]
+    var heartRateText = "Heart Rate: ";
+    [ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/bin/optimized/group000-debug/source/source/CadanceView.mc"; @line = 11; @position = 13; ]
+    protected
+    var dataDelegate;
+    [ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/bin/optimized/group000-debug/source/source/CadanceView.mc"; @line = 13; @position = 13; ]
+    protected
+    var energyLabel;
+    [ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/bin/optimized/group000-debug/source/source/CadanceView.mc"; @line = 14; @position = 13; ]
+    protected
+    var cadenceLabel;
+    [ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/bin/optimized/group000-debug/source/source/CadanceView.mc"; @line = 15; @position = 13; ]
+    protected
+    var heartRateLabel;
+    [ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/bin/optimized/group000-debug/source/source/CadanceView.mc"; @line = 17; ]
+    function initialize() as Void {
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_bin_optimized_group000_debug_source_source_CadanceView_mc_17_24_start:
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/bin/optimized/group000-debug/source/source/CadanceView.mc" 18 4 ]
+        %tmp.2 = getv ? :View;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_bin_optimized_group000_debug_source_source_CadanceView_mc_17_24_stop:
+    }
+    [ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/bin/optimized/group000-debug/source/source/CadanceView.mc"; @line = 22; ]
+    function onLayout(dc as Dc) as Void {
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_bin_optimized_group000_debug_source_source_CadanceView_mc_22_38_start:
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/bin/optimized/group000-debug/source/source/CadanceView.mc" 23 4 ]
+        %tmp.1 = self;
+        %tmp.2 = getv function %tmp.1 :setLayout;
+        %tmp.3 = getm $.Rez;
+        %tmp.4 = getv %tmp.3 :Layouts;
+        %tmp.5 = getv function %tmp.4 :MainLayout;
+        %tmp.7 = lgetv %dc;
+        %tmp.8 = invoke %tmp.4 %tmp.5(%tmp.7);
+        invoke %tmp.1 %tmp.2(%tmp.8);
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/bin/optimized/group000-debug/source/source/CadanceView.mc" 25 4 ]
+        %tmp.10 = getv ? :View;
+        %tmp.11 = getv function %tmp.10 :findDrawableById;
+        %tmp.12 = "Energy";
+        %tmp.13 = invoke %tmp.10 %tmp.11(%tmp.12);
+        putv self :energyLabel %tmp.13;
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/bin/optimized/group000-debug/source/source/CadanceView.mc" 26 4 ]
+        %tmp.15 = getv ? :View;
+        %tmp.16 = getv function %tmp.15 :findDrawableById;
+        %tmp.17 = "heartRate";
+        %tmp.18 = invoke %tmp.15 %tmp.16(%tmp.17);
+        putv self :heartRateLabel %tmp.18;
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/bin/optimized/group000-debug/source/source/CadanceView.mc" 27 4 ]
+        %tmp.20 = getv ? :View;
+        %tmp.21 = getv function %tmp.20 :findDrawableById;
+        %tmp.22 = "cadence";
+        %tmp.23 = invoke %tmp.20 %tmp.21(%tmp.22);
+        putv self :cadenceLabel %tmp.23;
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/bin/optimized/group000-debug/source/source/CadanceView.mc" 29 4 ]
+        %tmp.24 = getm $.Toybox.Sensor;
+        %tmp.25 = getv function %tmp.24 :setEnabledSensors;
+        %tmp.26 = newa 1;
+        %tmp.27 = 4;
+        %tmp.28 = as %tmp.27 Toybox.Sensor.RemoteSensorType;
+        %tmp.29 = dup %tmp.26;
+        %tmp.30 = aputv %tmp.29 0 %tmp.28;
+        invoke %tmp.24 %tmp.25(%tmp.30);
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/bin/optimized/group000-debug/source/source/CadanceView.mc" 30 4 ]
+        %tmp.31 = getm $.Toybox.Sensor;
+        %tmp.32 = getv function %tmp.31 :enableSensorEvents;
+        %tmp.33 = self;
+        %tmp.34 = getv function %tmp.33 :method;
+        %tmp.36 = const :onSensor;
+        %tmp.37 = invoke %tmp.33 %tmp.34(%tmp.36);
+        invoke %tmp.31 %tmp.32(%tmp.37);
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_bin_optimized_group000_debug_source_source_CadanceView_mc_22_38_stop:
+    }
+    [ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/bin/optimized/group000-debug/source/source/CadanceView.mc"; @line = 36; ]
+    function onShow() as Void {
+    }
+    [ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/bin/optimized/group000-debug/source/source/CadanceView.mc"; @line = 40; ]
+    function onSensor(sensorInfo as Sensor.Info) as Void {
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_bin_optimized_group000_debug_source_source_CadanceView_mc_40_55_start:
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/bin/optimized/group000-debug/source/source/CadanceView.mc" 41 4 ]
+        %tmp.2 = getv ? :dataDelegate;
+        %tmp.3 = getv function %tmp.2 :updateFields;
+        %tmp.5 = lgetv %sensorInfo;
+        invoke %tmp.2 %tmp.3(%tmp.5);
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/bin/optimized/group000-debug/source/source/CadanceView.mc" 43 4 ]
+        %tmp.6 = self;
+        %tmp.7 = getv function %tmp.6 :requestUpdate;
+        invoke %tmp.6 %tmp.7();
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_bin_optimized_group000_debug_source_source_CadanceView_mc_40_55_stop:
+    }
+    [ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/bin/optimized/group000-debug/source/source/CadanceView.mc"; @line = 47; ]
+    function onUpdate(dc as Dc) as Void {
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_bin_optimized_group000_debug_source_source_CadanceView_mc_47_38_start:
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/bin/optimized/group000-debug/source/source/CadanceView.mc" 48 4 ]
+        %tmp.1 = lgetv %dc;
+        %tmp.2 = getv function %tmp.1 :clear;
+        invoke %tmp.1 %tmp.2();
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/bin/optimized/group000-debug/source/source/CadanceView.mc" 49 4 ]
+        %tmp.4 = getv ? :View;
+        %tmp.5 = getv function %tmp.4 :onUpdate;
+        %tmp.7 = lgetv %dc;
+        invoke %tmp.4 %tmp.5(%tmp.7);
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/bin/optimized/group000-debug/source/source/CadanceView.mc" 51 4 ]
+        %tmp.9 = getv ? :energyLabel;
+        %tmp.10 = getv function %tmp.9 :setText;
+        %tmp.12 = getv ? :energyText;
+        %tmp.14 = getv ? :dataDelegate;
+        %tmp.15 = getv function %tmp.14 :getEnergy;
+        %tmp.16 = invoke %tmp.14 %tmp.15();
+        %tmp.17 = add %tmp.12 %tmp.16;
+        invoke %tmp.9 %tmp.10(%tmp.17);
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/bin/optimized/group000-debug/source/source/CadanceView.mc" 52 4 ]
+        %tmp.19 = getv ? :cadenceLabel;
+        %tmp.20 = getv function %tmp.19 :setText;
+        %tmp.22 = getv ? :cadenceText;
+        %tmp.24 = getv ? :dataDelegate;
+        %tmp.25 = getv function %tmp.24 :getCadence;
+        %tmp.26 = invoke %tmp.24 %tmp.25();
+        %tmp.27 = add %tmp.22 %tmp.26;
+        invoke %tmp.19 %tmp.20(%tmp.27);
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/bin/optimized/group000-debug/source/source/CadanceView.mc" 53 4 ]
+        %tmp.29 = getv ? :heartRateLabel;
+        %tmp.30 = getv function %tmp.29 :setText;
+        %tmp.32 = getv ? :heartRateText;
+        %tmp.34 = getv ? :dataDelegate;
+        %tmp.35 = getv function %tmp.34 :getHeartRate;
+        %tmp.36 = invoke %tmp.34 %tmp.35();
+        %tmp.37 = add %tmp.32 %tmp.36;
+        invoke %tmp.29 %tmp.30(%tmp.37);
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_bin_optimized_group000_debug_source_source_CadanceView_mc_47_38_stop:
+    }
+    [ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/bin/optimized/group000-debug/source/source/CadanceView.mc"; @line = 59; ]
+    function onHide() as Void {
+    }
+}
+[ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/bin/optimized/group000-debug/source/source/CadanceView.mc"; @line = 1; ]
+<init> {
+}

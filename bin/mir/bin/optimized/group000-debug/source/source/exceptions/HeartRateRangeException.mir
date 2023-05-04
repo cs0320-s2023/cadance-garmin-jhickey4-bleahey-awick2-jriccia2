@@ -1,0 +1,60 @@
+[ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/bin/optimized/group000-debug/source/source/exceptions/HeartRateRangeException.mc"; @line = 1; ]
+using Toybox.Lang;
+[ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/bin/optimized/group000-debug/source/source/exceptions/HeartRateRangeException.mc"; @line = 3; ]
+class HeartRateRangeException extends Lang.Exception{
+    [ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/bin/optimized/group000-debug/source/source/exceptions/HeartRateRangeException.mc"; @line = 3; ]
+    <init> {
+    }
+    [ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/bin/optimized/group000-debug/source/source/exceptions/HeartRateRangeException.mc"; @line = 3; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/bin/optimized/group000-debug/source/source/exceptions/HeartRateRangeException.mc"; @line = 4; @position = 13; ]
+    protected
+    var hr as Lang.Number = -1;
+    [ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/bin/optimized/group000-debug/source/source/exceptions/HeartRateRangeException.mc"; @line = 6; ]
+    function initialize(hr as Lang.Number) as Void {
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_bin_optimized_group000_debug_source_source_exceptions_HeartRateRangeException_mc_6_41_start:
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/bin/optimized/group000-debug/source/source/exceptions/HeartRateRangeException.mc" 7 4 ]
+        %tmp.2 = getv ? :Exception;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_bin_optimized_group000_debug_source_source_exceptions_HeartRateRangeException_mc_6_41_stop:
+    }
+    [ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/bin/optimized/group000-debug/source/source/exceptions/HeartRateRangeException.mc"; @line = 10; ]
+    function getErrorMessage() {
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_bin_optimized_group000_debug_source_source_exceptions_HeartRateRangeException_mc_10_29_start:
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/bin/optimized/group000-debug/source/source/exceptions/HeartRateRangeException.mc" 11 4 ]
+        [ "_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_bin_optimized_group000_debug_source_source_exceptions_HeartRateRangeException_mc_10_29_start" "_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_bin_optimized_group000_debug_source_source_exceptions_HeartRateRangeException_mc_10_29_stop" ]
+        %pre_hr.1 = local;
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/bin/optimized/group000-debug/source/source/exceptions/HeartRateRangeException.mc" 12 4 ]
+        %tmp.2 = getv ? :hr;
+        lputv %pre_hr.1 %tmp.2;
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/bin/optimized/group000-debug/source/source/exceptions/HeartRateRangeException.mc" 13 4 ]
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_bin_optimized_group000_debug_source_source_exceptions_HeartRateRangeException_mc_13_4_if_stmt:
+        %tmp.4 = lgetv %pre_hr.1;
+        %tmp.5 = 1;
+        %tmp.6 = sub 0 %tmp.5;
+        %tmp.7 = eq %tmp.4 %tmp.6;
+        bf %tmp.7 @_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_bin_optimized_group000_debug_source_source_exceptions_HeartRateRangeException_mc_13_4_if_end;
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_bin_optimized_group000_debug_source_source_exceptions_HeartRateRangeException_mc_13_4_if_true:
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_bin_optimized_group000_debug_source_source_exceptions_HeartRateRangeException_mc_13_22_start:
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/bin/optimized/group000-debug/source/source/exceptions/HeartRateRangeException.mc" 14 6 ]
+        %tmp.8 = "Heart rate not set";
+        ret %tmp.8;
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_bin_optimized_group000_debug_source_source_exceptions_HeartRateRangeException_mc_13_22_stop:
+        goto @_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_bin_optimized_group000_debug_source_source_exceptions_HeartRateRangeException_mc_13_4_if_end;
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_bin_optimized_group000_debug_source_source_exceptions_HeartRateRangeException_mc_13_4_if_end:
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/bin/optimized/group000-debug/source/source/exceptions/HeartRateRangeException.mc" 16 4 ]
+        %tmp.9 = "Heart rate ";
+        %tmp.11 = lgetv %pre_hr.1;
+        %tmp.12 = add %tmp.9 %tmp.11;
+        %tmp.13 = " not in range 90-210";
+        %tmp.14 = add %tmp.12 %tmp.13;
+        ret %tmp.14;
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_bin_optimized_group000_debug_source_source_exceptions_HeartRateRangeException_mc_10_29_stop:
+    }
+}
+[ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/bin/optimized/group000-debug/source/source/exceptions/HeartRateRangeException.mc"; @line = 1; ]
+<init> {
+}
