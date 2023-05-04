@@ -126,38 +126,38 @@ _Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataD
         %cadenceUpdated.3 = local;
         %tmp.30 = false;
         lputv %cadenceUpdated.3 %tmp.30;
-[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" 56 12 ]
-_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_56_12_if_stmt:
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" 52 12 ]
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_52_12_if_stmt:
         %tmp.32 = getv ? :dynamics;
         %tmp.33 = getv function %tmp.32 :getRunningDynamics;
         %tmp.34 = invoke %tmp.32 %tmp.33();
         %tmp.35 = null;
         %tmp.36 = ne %tmp.34 %tmp.35;
-        bf %tmp.36 @_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_56_12_if_false;
-_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_56_12_if_true:
-_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_56_53_start:
-[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" 57 17 ]
+        bf %tmp.36 @_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_52_12_if_false;
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_52_12_if_true:
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_52_53_start:
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" 53 17 ]
         %tmp.38 = getv ? :dynamics;
         %tmp.39 = getv function %tmp.38 :getRunningDynamics;
         %tmp.40 = invoke %tmp.38 %tmp.39();
         %tmp.41 = getv %tmp.40 :cadence;
         putv self :cadence %tmp.41;
-[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" 58 16 ]
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" 54 16 ]
         %tmp.42 = true;
         lputv %cadenceUpdated.3 %tmp.42;
-_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_56_53_stop:
-        goto @_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_56_12_if_end;
-_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_56_12_if_false:
-[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" 59 19 ]
-_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_59_19_if_stmt:
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_52_53_stop:
+        goto @_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_52_12_if_end;
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_52_12_if_false:
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" 55 19 ]
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_55_19_if_stmt:
         %tmp.43 = lgetv %sensorInfo;
         %tmp.44 = getv %tmp.43 :cadence;
         %tmp.45 = null;
         %tmp.46 = ne %tmp.44 %tmp.45;
-        bf %tmp.46 @_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_59_19_if_end;
-_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_59_19_if_true:
-_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_59_50_start:
-[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" 60 16 ]
+        bf %tmp.46 @_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_55_19_if_end;
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_55_19_if_true:
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_55_50_start:
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" 56 16 ]
         %tmp.47 = getm $.Toybox.Math;
         %tmp.48 = getv function %tmp.47 :floor;
         %tmp.49 = lgetv %sensorInfo;
@@ -169,24 +169,24 @@ _Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataD
         %tmp.56 = getv function %tmp.55 :toNumber;
         %tmp.57 = invoke %tmp.55 %tmp.56();
         putv self :cadence %tmp.57;
-[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" 62 16 ]
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" 58 16 ]
         %tmp.58 = true;
         lputv %cadenceUpdated.3 %tmp.58;
-_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_59_50_stop:
-        goto @_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_59_19_if_end;
-_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_59_19_if_end:
-_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_56_12_if_end:
-[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" 64 12 ]
-_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_64_12_if_stmt:
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_55_50_stop:
+        goto @_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_55_19_if_end;
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_55_19_if_end:
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_52_12_if_end:
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" 60 12 ]
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_60_12_if_stmt:
         %tmp.60 = lgetv %cadenceUpdated.3;
-        bf %tmp.60 @_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_64_12_if_end;
-_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_64_12_if_true:
-_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_64_30_start:
-[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" 65 16 ]
-        try @_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_65_16_beginTry @_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_65_16_endTry @_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_65_16_catch @_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_65_16_finally;
-_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_65_16_beginTry:
-_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_65_19_start:
-[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" 66 16 ]
+        bf %tmp.60 @_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_60_12_if_end;
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_60_12_if_true:
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_60_30_start:
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" 61 16 ]
+        try @_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_61_16_beginTry @_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_61_16_endTry @_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_61_16_catch @_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_61_16_finally;
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_61_16_beginTry:
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_61_19_start:
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" 62 16 ]
         %tmp.62 = getv ? :Constants;
         %tmp.63 = getv %tmp.62 :CADENCE_WEIGHT;
         %tmp.65 = getv ? :CadanceAlgorithmDelegate;
@@ -205,26 +205,26 @@ _Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataD
         %tmp.84 = mul %tmp.77 %tmp.83;
         %tmp.85 = add %tmp.74 %tmp.84;
         putv self :energy %tmp.85;
-_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_65_19_stop:
-_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_65_16_endTry:
-        jsr @_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_65_16_finally;
-        goto @_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_65_16_end;
-_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_65_16_catch:
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_61_19_stop:
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_61_16_endTry:
+        jsr @_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_61_16_finally;
+        goto @_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_61_16_end;
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_61_16_catch:
         %tmp.86 = exception;
         push %tmp.86;
-[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" 68 18 ]
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" 64 18 ]
         %tmp.87 = dup %tmp.86;
         %tmp.88 = getm $.Toybox.Lang;
         %tmp.89 = getv %tmp.88 :Exception;
         %tmp.90 = isa %tmp.87 %tmp.89;
-        bf %tmp.90 @_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_68_18_next;
-        [ "_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_65_16_catch" "_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_68_18_next" ]
+        bf %tmp.90 @_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_64_18_next;
+        [ "_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_61_16_catch" "_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_64_18_next" ]
         %e.4 = local;
         %tmp.91 = dup %tmp.86;
         %tmp.92 = as %tmp.91 Toybox.Lang.Exception;
         lputv %e.4 %tmp.92;
-_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_68_59_start:
-[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" 69 19 ]
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_64_59_start:
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" 65 19 ]
         %tmp.94 = getv ? :CadanceAlgorithmDelegate;
         %tmp.95 = getv function %tmp.94 :cadenceToEnergy;
         %tmp.97 = getv ? :cadence;
@@ -232,46 +232,46 @@ _Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataD
         %tmp.101 = lgetv %male.1;
         %tmp.102 = invoke %tmp.94 %tmp.95(%tmp.97, %tmp.99, %tmp.101);
         putv self :energy %tmp.102;
-[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" 70 19 ]
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" 66 19 ]
         %tmp.104 = getv ? :System;
         %tmp.105 = getv function %tmp.104 :println;
         %tmp.106 = lgetv %e.4;
         %tmp.107 = getv function %tmp.106 :getErrorMessage;
         %tmp.108 = invoke %tmp.106 %tmp.107();
         invoke %tmp.104 %tmp.105(%tmp.108);
-_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_68_59_stop:
-        jsr @_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_65_16_finally;
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_64_59_stop:
+        jsr @_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_61_16_finally;
         pop;
-        goto @_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_65_16_end;
-_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_68_18_next:
-        jsr @_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_65_16_finally;
+        goto @_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_61_16_end;
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_64_18_next:
+        jsr @_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_61_16_finally;
         throw %tmp.86;
-_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_65_16_finally:
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_61_16_finally:
         jsrret;
-_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_65_16_end:
-_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_64_30_stop:
-        goto @_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_64_12_if_end;
-_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_64_12_if_end:
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_61_16_end:
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_60_30_stop:
+        goto @_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_60_12_if_end;
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_60_12_if_end:
 _Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_47_40_stop:
         goto @_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_47_8_if_end;
 _Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_47_8_if_false:
-[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" 73 15 ]
-_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_73_15_if_stmt:
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" 69 15 ]
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_69_15_if_stmt:
         %tmp.110 = getv ? :dynamics;
         %tmp.111 = getv function %tmp.110 :getRunningDynamics;
         %tmp.112 = invoke %tmp.110 %tmp.111();
         %tmp.113 = null;
         %tmp.114 = ne %tmp.112 %tmp.113;
-        bf %tmp.114 @_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_73_15_if_false;
-_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_73_15_if_true:
-_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_73_56_start:
-[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" 74 12 ]
+        bf %tmp.114 @_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_69_15_if_false;
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_69_15_if_true:
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_69_56_start:
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" 70 12 ]
         %tmp.116 = getv ? :dynamics;
         %tmp.117 = getv function %tmp.116 :getRunningDynamics;
         %tmp.118 = invoke %tmp.116 %tmp.117();
         %tmp.119 = getv %tmp.118 :cadence;
         putv self :cadence %tmp.119;
-[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" 75 12 ]
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" 71 12 ]
         %tmp.121 = getv ? :CadanceAlgorithmDelegate;
         %tmp.122 = getv function %tmp.121 :cadenceToEnergy;
         %tmp.124 = getv ? :cadence;
@@ -279,19 +279,19 @@ _Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataD
         %tmp.128 = lgetv %male.1;
         %tmp.129 = invoke %tmp.121 %tmp.122(%tmp.124, %tmp.126, %tmp.128);
         putv self :energy %tmp.129;
-_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_73_56_stop:
-        goto @_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_73_15_if_end;
-_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_73_15_if_false:
-[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" 76 15 ]
-_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_76_15_if_stmt:
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_69_56_stop:
+        goto @_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_69_15_if_end;
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_69_15_if_false:
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" 72 15 ]
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_72_15_if_stmt:
         %tmp.130 = lgetv %sensorInfo;
         %tmp.131 = getv %tmp.130 :cadence;
         %tmp.132 = null;
         %tmp.133 = ne %tmp.131 %tmp.132;
-        bf %tmp.133 @_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_76_15_if_end;
-_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_76_15_if_true:
-_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_76_45_start:
-[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" 77 12 ]
+        bf %tmp.133 @_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_72_15_if_end;
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_72_15_if_true:
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_72_45_start:
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" 73 12 ]
         %tmp.134 = getm $.Toybox.Math;
         %tmp.135 = getv function %tmp.134 :floor;
         %tmp.136 = lgetv %sensorInfo;
@@ -303,7 +303,7 @@ _Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataD
         %tmp.143 = getv function %tmp.142 :toNumber;
         %tmp.144 = invoke %tmp.142 %tmp.143();
         putv self :cadence %tmp.144;
-[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" 79 12 ]
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" 75 12 ]
         %tmp.146 = getv ? :CadanceAlgorithmDelegate;
         %tmp.147 = getv function %tmp.146 :cadenceToEnergy;
         %tmp.149 = getv ? :cadence;
@@ -311,10 +311,10 @@ _Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataD
         %tmp.153 = lgetv %male.1;
         %tmp.154 = invoke %tmp.146 %tmp.147(%tmp.149, %tmp.151, %tmp.153);
         putv self :energy %tmp.154;
-_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_76_45_stop:
-        goto @_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_76_15_if_end;
-_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_76_15_if_end:
-_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_73_15_if_end:
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_72_45_stop:
+        goto @_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_72_15_if_end;
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_72_15_if_end:
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_69_15_if_end:
 _Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_47_8_if_end:
 _Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceDataDelegate_mc_39_61_stop:
     }

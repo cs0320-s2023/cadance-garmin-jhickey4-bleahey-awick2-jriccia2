@@ -2,7 +2,7 @@
 import Toybox.Graphics;
 [ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceGlanceView.mc"; @line = 2; ]
 import Toybox.WatchUi;
-[ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceGlanceView.mc"; @line = 4; ]
+[ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceGlanceView.mc"; @line = 4; glance = true; ]
 class CadanceGlanceView extends WatchUi.GlanceView{
     [ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceGlanceView.mc"; @line = 4; ]
     <init> {

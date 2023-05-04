@@ -1,4 +1,4 @@
-# CaDance (Garmin Connect IQ)
+# CaDance for Garmin
 
 ## Project Details:
 
@@ -17,6 +17,17 @@ cadence, height, and gender. This data is used to calculate the user's
 estimated energy expended during an activity. This data is not stored or
 transmitted anywhere outside of the device/simulator, nor is it used for any other
 purpose.
+
+**Description:**
+CaDance for Garmin is a Garmin Connect IQ application that uses the sensor data
+from a Garmin Forerunner 245 Music to generate the fields required for the
+CaDance web application. This includes the user's Spotify energy input and
+running cadence. It allows these fields to be estimated more accurately and in
+real time, as opposed to the current method of manual entry by the user on the
+web app based on their own estimations.
+
+The application is currently in development and is not yet released
+beyond the simulator.
 
 ## Getting Started
 

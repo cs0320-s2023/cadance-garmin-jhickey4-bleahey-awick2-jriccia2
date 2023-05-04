@@ -24,21 +24,24 @@ class CadanceDataDelegate {
         dynamics = new AntPlus.RunningDynamics(listener);
     }
 
+    //Returns the cadence in SPM
     function getCadence() as Toybox.Lang.Number{
         return cadence;
     }
 
+    //Returns the heart rate in BPM
     function getHeartRate() as Toybox.Lang.Number{
         return heartRate;
     }
 
+    //Returns the reccomended spotify energy level
     function getEnergy() as Toybox.Lang.Number{
         return energy;
     }
 
     function updateFields(sensorInfo as Sensor.Info) as Void {
         //on official release, remove this line and use the one in initialize()
-        //TODO: surround in try catch for nullpointer, or check if null
+        //profile will always be defined, so no need to check for null
         profile = UserProfile.getProfile();
         var male = (profile.gender == UserProfile.GENDER_MALE);
         var height = profile.height * Constants.CM_TO_INCH;
@@ -48,10 +51,6 @@ class CadanceDataDelegate {
             heartRate = sensorInfo.heartRate;
 
             var cadenceUpdated = false;
-            
-            //TODO: calculate energy based on cadence or heart rate or average
-            //TODO: calculate tempo based on running cadence
-            //TODO: handle -1 flags
 
             if(dynamics.getRunningDynamics() != null){
                  cadence = dynamics.getRunningDynamics().cadence;

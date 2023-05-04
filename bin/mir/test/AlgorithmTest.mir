@@ -15,9 +15,42 @@ _Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_test_AlgorithmTest_
 [ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/test/AlgorithmTest.mc"; @line = 9; test = true; ]
 function hrToEnergyOutOfRange(logger) {
 _Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_test_AlgorithmTest_mc_10_38_start:
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/test/AlgorithmTest.mc" 11 4 ]
+    [ "_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_test_AlgorithmTest_mc_10_38_start" "_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_test_AlgorithmTest_mc_10_38_stop" ]
+    %exceptionCaughtLow.1 = local;
+    %tmp.1 = false;
+    lputv %exceptionCaughtLow.1 %tmp.1;
 [ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/test/AlgorithmTest.mc" 12 4 ]
-    %tmp.1 = true;
-    ret %tmp.1;
+    [ "_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_test_AlgorithmTest_mc_10_38_start" "_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_test_AlgorithmTest_mc_10_38_stop" ]
+    %exceptionCaughtHigh.2 = local;
+    %tmp.2 = false;
+    lputv %exceptionCaughtHigh.2 %tmp.2;
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/test/AlgorithmTest.mc" 13 4 ]
+    [ "_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_test_AlgorithmTest_mc_10_38_start" "_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_test_AlgorithmTest_mc_10_38_stop" ]
+    %exceptionCaughtUndefined.3 = local;
+    %tmp.3 = false;
+    lputv %exceptionCaughtUndefined.3 %tmp.3;
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/test/AlgorithmTest.mc" 37 4 ]
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_test_AlgorithmTest_mc_37_11_begin:
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_test_AlgorithmTest_mc_37_11_begin:
+    %tmp.5 = lgetv %exceptionCaughtLow.1;
+    %tmp.6 = dup %tmp.5;
+    bf %tmp.6 @_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_test_AlgorithmTest_mc_37_33_end;
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_test_AlgorithmTest_mc_37_33_true:
+    %tmp.8 = lgetv %exceptionCaughtHigh.2;
+    %tmp.9 = and %tmp.5 %tmp.8;
+    push %tmp.9;
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_test_AlgorithmTest_mc_37_33_end:
+    %tmp.10 = phi [%tmp.6 @_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_test_AlgorithmTest_mc_37_11_begin] [%tmp.9 @_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_test_AlgorithmTest_mc_37_33_true] [%tmp.10 @_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_test_AlgorithmTest_mc_37_33_end];
+    %tmp.11 = dup %tmp.10;
+    bf %tmp.11 @_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_test_AlgorithmTest_mc_37_56_end;
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_test_AlgorithmTest_mc_37_56_true:
+    %tmp.13 = lgetv %exceptionCaughtUndefined.3;
+    %tmp.14 = and %tmp.10 %tmp.13;
+    push %tmp.14;
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_test_AlgorithmTest_mc_37_56_end:
+    %tmp.15 = phi [%tmp.11 @_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_test_AlgorithmTest_mc_37_11_begin] [%tmp.14 @_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_test_AlgorithmTest_mc_37_56_true] [%tmp.15 @_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_test_AlgorithmTest_mc_37_56_end];
+    ret %tmp.15;
 _Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_test_AlgorithmTest_mc_10_38_stop:
 }
 [ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/test/AlgorithmTest.mc"; @line = 1; ]
