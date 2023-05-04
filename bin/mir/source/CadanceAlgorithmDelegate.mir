@@ -38,36 +38,37 @@ _Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceAlgor
 _Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceAlgorithmDelegate_mc_10_8_if_true:
 _Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceAlgorithmDelegate_mc_10_33_start:
 [ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceAlgorithmDelegate.mc" 11 12 ]
-        %tmp.12 = 1d;
-        %tmp.13 = sub 0 %tmp.12;
-        ret %tmp.13;
+        %tmp.15 = getv ? :HeartRateRangeException;
+        %tmp.17 = lgetv %hr;
+        %tmp.12 = newc %tmp.15 (%tmp.17);
+        throw %tmp.12;
 _Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceAlgorithmDelegate_mc_10_33_stop:
         goto @_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceAlgorithmDelegate_mc_10_8_if_end;
 _Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceAlgorithmDelegate_mc_10_8_if_end:
 [ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceAlgorithmDelegate.mc" 13 8 ]
         [ "_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceAlgorithmDelegate_mc_9_65_start" "_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceAlgorithmDelegate_mc_9_65_stop" ]
         %res.1 = local;
-        %tmp.15 = lgetv %hr;
-        %tmp.16 = 90d;
-        %tmp.17 = sub %tmp.15 %tmp.16;
-        %tmp.18 = 210d;
-        %tmp.19 = 90d;
-        %tmp.20 = sub %tmp.18 %tmp.19;
-        %tmp.21 = div %tmp.17 %tmp.20;
-        lputv %res.1 %tmp.21;
+        %tmp.19 = lgetv %hr;
+        %tmp.20 = 90d;
+        %tmp.21 = sub %tmp.19 %tmp.20;
+        %tmp.22 = 210d;
+        %tmp.23 = 90d;
+        %tmp.24 = sub %tmp.22 %tmp.23;
+        %tmp.25 = div %tmp.21 %tmp.24;
+        lputv %res.1 %tmp.25;
 [ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceAlgorithmDelegate.mc" 14 8 ]
-        %tmp.22 = getm $.Toybox.Math;
-        %tmp.23 = getv function %tmp.22 :round;
-        %tmp.25 = lgetv %res.1;
-        %tmp.26 = 100;
-        %tmp.27 = mul %tmp.25 %tmp.26;
-        %tmp.28 = invoke %tmp.22 %tmp.23(%tmp.27);
-        %tmp.29 = 100d;
-        %tmp.30 = div %tmp.28 %tmp.29;
-        lputv %res.1 %tmp.30;
+        %tmp.26 = getm $.Toybox.Math;
+        %tmp.27 = getv function %tmp.26 :round;
+        %tmp.29 = lgetv %res.1;
+        %tmp.30 = 100;
+        %tmp.31 = mul %tmp.29 %tmp.30;
+        %tmp.32 = invoke %tmp.26 %tmp.27(%tmp.31);
+        %tmp.33 = 100d;
+        %tmp.34 = div %tmp.32 %tmp.33;
+        lputv %res.1 %tmp.34;
 [ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceAlgorithmDelegate.mc" 16 8 ]
-        %tmp.32 = lgetv %res.1;
-        ret %tmp.32;
+        %tmp.36 = lgetv %res.1;
+        ret %tmp.36;
 _Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_CadanceAlgorithmDelegate_mc_9_65_stop:
     }
     [ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceAlgorithmDelegate.mc"; @line = 19; ]

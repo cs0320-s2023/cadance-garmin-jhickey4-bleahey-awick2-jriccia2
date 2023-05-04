@@ -8,7 +8,7 @@ class CadanceAlgorithmDelegate {
     //retuns -1 as a flag for an invalid heart rate
     static function hrToEnergy(hr as Lang.Number) as Lang.Double {
         if (hr < 90 || hr > 210) {
-            return -1d;
+            throw new HeartRateRangeException(hr);
         }
         var res = (hr - 90d) / (210d - 90d);
         res = (Math.round(res * 100)) / 100d;

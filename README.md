@@ -27,7 +27,8 @@ Garmin Forerunner 245 Music.
 
 To run the device simulator (which is the only guarunteed way to run the
 application at the moment), you will need to install the Garmin Connect IQ SDK.
-This can be found here:
+It is also recommended that you install the VSCode extension for MonkeyC.
+They can both be found here:
 https://developer.garmin.com/connect-iq/sdk/
 
 For the simplest solution, cloning this repository into VSCode will import many

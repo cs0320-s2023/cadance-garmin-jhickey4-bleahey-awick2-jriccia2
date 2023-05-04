@@ -1,15 +1,13 @@
 using Toybox.Test;
 
 (:test)
-function minmaxavgTestLast(logger) {
-	
-	// var stats = new MinMaxAvg(true);
-	// stats.setData(1);
-	// stats.setData(2);
-	// stats.setData(3);
+function hrToEnergyBasicTest(logger) {
+    CadanceAlgorithmDelegate.hrToenergy();
+    return true;
+}
 
-	// logger.debug("last = " + stats.last());
-	// return (stats.last() == 3); 
-
+(:test)
+function hrToEnergyOutOfRange(logger) {
+    //CadanceAlgorithmDelegate.hrToenergy(0);
     return true;
 }

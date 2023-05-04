@@ -21,117 +21,126 @@
         <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceAlgorithmDelegate.mc" id="3" lineNum="9" parent="globals/CadanceAlgorithmDelegate" pc="268435648" symbol="hrToEnergy"/>
         <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceAlgorithmDelegate.mc" id="3" lineNum="10" parent="globals/CadanceAlgorithmDelegate" pc="268435652" symbol="hrToEnergy"/>
         <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceAlgorithmDelegate.mc" id="3" lineNum="11" parent="globals/CadanceAlgorithmDelegate" pc="268435677" symbol="hrToEnergy"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceAlgorithmDelegate.mc" id="3" lineNum="13" parent="globals/CadanceAlgorithmDelegate" pc="268435690" symbol="hrToEnergy"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceAlgorithmDelegate.mc" id="3" lineNum="14" parent="globals/CadanceAlgorithmDelegate" pc="268435714" symbol="hrToEnergy"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceAlgorithmDelegate.mc" id="3" lineNum="16" parent="globals/CadanceAlgorithmDelegate" pc="268435749" symbol="hrToEnergy"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceApp.mc" id="4" lineNum="5" parent="globals/CadanceApp" pc="268435752" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceApp.mc" id="5" lineNum="14" parent="globals/CadanceApp" pc="268435771" symbol="onStart"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceApp.mc" id="6" lineNum="24" parent="globals/CadanceApp" pc="268435774" symbol="onGlanceEvent"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceApp.mc" id="6" lineNum="26" parent="globals/CadanceApp" pc="268435776" symbol="onGlanceEvent"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceApp.mc" id="7" lineNum="30" parent="globals/CadanceApp" pc="268435817" symbol="getInitialView"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceApp.mc" id="7" lineNum="31" parent="globals/CadanceApp" pc="268435819" symbol="getInitialView"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceApp.mc" id="8" lineNum="9" parent="globals/CadanceApp" pc="268435860" symbol="initialize"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceApp.mc" id="8" lineNum="10" parent="globals/CadanceApp" pc="268435862" symbol="initialize"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceApp.mc" id="9" lineNum="19" parent="globals/CadanceApp" pc="268435881" symbol="onStop"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceApp.mc" id="10" lineNum="36" parent="globals" pc="268435884" symbol="getApp"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceApp.mc" id="10" lineNum="37" parent="globals" pc="268435894" symbol="getApp"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/bin/gen/006-B3076-00/source/Rez.mcgen" id="11" lineNum="7" parent="globals/Rez" pc="268435910" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceGlanceView.mc" id="12" lineNum="4" parent="globals/CadanceGlanceView" pc="268435934" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceGlanceView.mc" id="14" lineNum="10" parent="globals/CadanceGlanceView" pc="268435953" symbol="onLayout"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceGlanceView.mc" id="14" lineNum="11" parent="globals/CadanceGlanceView" pc="268435955" symbol="onLayout"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceGlanceView.mc" id="15" lineNum="5" parent="globals/CadanceGlanceView" pc="268435997" symbol="initialize"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceGlanceView.mc" id="15" lineNum="6" parent="globals/CadanceGlanceView" pc="268435999" symbol="initialize"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceGlanceView.mc" id="17" lineNum="21" parent="globals/CadanceGlanceView" pc="268436018" symbol="onUpdate"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceGlanceView.mc" id="17" lineNum="22" parent="globals/CadanceGlanceView" pc="268436020" symbol="onUpdate"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceGlanceView.mc" id="17" lineNum="23" parent="globals/CadanceGlanceView" pc="268436032" symbol="onUpdate"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceView.mc" id="19" lineNum="5" parent="globals/CadanceView" pc="268436057" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceView.mc" id="19" lineNum="10" parent="globals/CadanceView" pc="268436075" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceView.mc" id="21" lineNum="21" parent="globals/CadanceView" pc="268436110" symbol="onLayout"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceView.mc" id="21" lineNum="22" parent="globals/CadanceView" pc="268436112" symbol="onLayout"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceView.mc" id="21" lineNum="24" parent="globals/CadanceView" pc="268436153" symbol="onLayout"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceView.mc" id="21" lineNum="25" parent="globals/CadanceView" pc="268436183" symbol="onLayout"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceView.mc" id="21" lineNum="26" parent="globals/CadanceView" pc="268436213" symbol="onLayout"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceView.mc" id="21" lineNum="28" parent="globals/CadanceView" pc="268436243" symbol="onLayout"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceView.mc" id="21" lineNum="29" parent="globals/CadanceView" pc="268436278" symbol="onLayout"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceView.mc" id="22" lineNum="40" parent="globals/CadanceView" pc="268436311" symbol="onSensor"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceView.mc" id="22" lineNum="41" parent="globals/CadanceView" pc="268436313" symbol="onSensor"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceView.mc" id="22" lineNum="43" parent="globals/CadanceView" pc="268436333" symbol="onSensor"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceView.mc" id="22" lineNum="45" parent="globals/CadanceView" pc="268436382" symbol="onSensor"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceView.mc" id="23" lineNum="16" parent="globals/CadanceView" pc="268436398" symbol="initialize"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceView.mc" id="23" lineNum="17" parent="globals/CadanceView" pc="268436400" symbol="initialize"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceView.mc" id="25" lineNum="50" parent="globals/CadanceView" pc="268436419" symbol="onUpdate"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceView.mc" id="25" lineNum="51" parent="globals/CadanceView" pc="268436421" symbol="onUpdate"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceView.mc" id="25" lineNum="52" parent="globals/CadanceView" pc="268436433" symbol="onUpdate"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceView.mc" id="25" lineNum="54" parent="globals/CadanceView" pc="268436453" symbol="onUpdate"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceView.mc" id="25" lineNum="55" parent="globals/CadanceView" pc="268436497" symbol="onUpdate"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceView.mc" id="25" lineNum="56" parent="globals/CadanceView" pc="268436541" symbol="onUpdate"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" id="26" lineNum="35" parent="globals/CadanceDataDelegate" pc="268436586" symbol="getEnergy"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" id="26" lineNum="36" parent="globals/CadanceDataDelegate" pc="268436588" symbol="getEnergy"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" id="27" lineNum="27" parent="globals/CadanceDataDelegate" pc="268436597" symbol="getCadence"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" id="27" lineNum="28" parent="globals/CadanceDataDelegate" pc="268436599" symbol="getCadence"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" id="28" lineNum="39" parent="globals/CadanceDataDelegate" pc="268436608" symbol="updateFields"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" id="28" lineNum="42" parent="globals/CadanceDataDelegate" pc="268436612" symbol="updateFields"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" id="28" lineNum="43" parent="globals/CadanceDataDelegate" pc="268436635" symbol="updateFields"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" id="28" lineNum="44" parent="globals/CadanceDataDelegate" pc="268436657" symbol="updateFields"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" id="28" lineNum="45" parent="globals/CadanceDataDelegate" pc="268436679" symbol="updateFields"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" id="28" lineNum="47" parent="globals/CadanceDataDelegate" pc="268436707" symbol="updateFields"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" id="28" lineNum="48" parent="globals/CadanceDataDelegate" pc="268436720" symbol="updateFields"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" id="28" lineNum="50" parent="globals/CadanceDataDelegate" pc="268436736" symbol="updateFields"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" id="28" lineNum="56" parent="globals/CadanceDataDelegate" pc="268436740" symbol="updateFields"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" id="28" lineNum="57" parent="globals/CadanceDataDelegate" pc="268436762" symbol="updateFields"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" id="28" lineNum="58" parent="globals/CadanceDataDelegate" pc="268436793" symbol="updateFields"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" id="28" lineNum="59" parent="globals/CadanceDataDelegate" pc="268436800" symbol="updateFields"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" id="28" lineNum="60" parent="globals/CadanceDataDelegate" pc="268436813" symbol="updateFields"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" id="28" lineNum="62" parent="globals/CadanceDataDelegate" pc="268436859" symbol="updateFields"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" id="28" lineNum="64" parent="globals/CadanceDataDelegate" pc="268436866" symbol="updateFields"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" id="28" lineNum="65" parent="globals/CadanceDataDelegate" pc="268436871" symbol="updateFields"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" id="28" lineNum="68" parent="globals/CadanceDataDelegate" pc="268436954" symbol="updateFields"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" id="28" lineNum="70" parent="globals/CadanceDataDelegate" pc="268437007" symbol="updateFields"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" id="28" lineNum="71" parent="globals/CadanceDataDelegate" pc="268437029" symbol="updateFields"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" id="28" lineNum="72" parent="globals/CadanceDataDelegate" pc="268437060" symbol="updateFields"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" id="28" lineNum="73" parent="globals/CadanceDataDelegate" pc="268437104" symbol="updateFields"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" id="28" lineNum="74" parent="globals/CadanceDataDelegate" pc="268437117" symbol="updateFields"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" id="28" lineNum="76" parent="globals/CadanceDataDelegate" pc="268437163" symbol="updateFields"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" id="29" lineNum="16" parent="globals/CadanceDataDelegate" pc="268437208" symbol="initialize"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" id="29" lineNum="21" parent="globals/CadanceDataDelegate" pc="268437212" symbol="initialize"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" id="29" lineNum="24" parent="globals/CadanceDataDelegate" pc="268437240" symbol="initialize"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" id="30" lineNum="31" parent="globals/CadanceDataDelegate" pc="268437277" symbol="getHeartRate"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" id="30" lineNum="32" parent="globals/CadanceDataDelegate" pc="268437279" symbol="getHeartRate"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/bin/gen/006-B3076-00/source/Rez.mcgen" id="31" lineNum="32" parent="globals/Rez/Layouts" pc="268437288" symbol="GlanceLayout"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/bin/gen/006-B3076-00/source/Rez.mcgen" id="31" lineNum="33" parent="globals/Rez/Layouts" pc="268437300" symbol="GlanceLayout"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/bin/gen/006-B3076-00/source/Rez.mcgen" id="31" lineNum="35" parent="globals/Rez/Layouts" pc="268437448" symbol="GlanceLayout"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/bin/gen/006-B3076-00/source/Rez.mcgen" id="32" lineNum="20" parent="globals/Rez/Layouts" pc="268437465" symbol="MainLayout"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/bin/gen/006-B3076-00/source/Rez.mcgen" id="32" lineNum="21" parent="globals/Rez/Layouts" pc="268437477" symbol="MainLayout"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/bin/gen/006-B3076-00/source/Rez.mcgen" id="32" lineNum="23" parent="globals/Rez/Layouts" pc="268437602" symbol="MainLayout"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/bin/gen/006-B3076-00/source/Rez.mcgen" id="32" lineNum="25" parent="globals/Rez/Layouts" pc="268437727" symbol="MainLayout"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/bin/gen/006-B3076-00/source/Rez.mcgen" id="32" lineNum="27" parent="globals/Rez/Layouts" pc="268437852" symbol="MainLayout"/>
-        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/bin/gen/006-B3076-00/source/Rez.mcgen" id="32" lineNum="29" parent="globals/Rez/Layouts" pc="268437977" symbol="MainLayout"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceAlgorithmDelegate.mc" id="3" lineNum="13" parent="globals/CadanceAlgorithmDelegate" pc="268435709" symbol="hrToEnergy"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceAlgorithmDelegate.mc" id="3" lineNum="14" parent="globals/CadanceAlgorithmDelegate" pc="268435733" symbol="hrToEnergy"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceAlgorithmDelegate.mc" id="3" lineNum="16" parent="globals/CadanceAlgorithmDelegate" pc="268435768" symbol="hrToEnergy"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceApp.mc" id="4" lineNum="5" parent="globals/CadanceApp" pc="268435771" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceApp.mc" id="5" lineNum="14" parent="globals/CadanceApp" pc="268435790" symbol="onStart"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceApp.mc" id="6" lineNum="24" parent="globals/CadanceApp" pc="268435793" symbol="onGlanceEvent"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceApp.mc" id="6" lineNum="26" parent="globals/CadanceApp" pc="268435795" symbol="onGlanceEvent"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceApp.mc" id="7" lineNum="30" parent="globals/CadanceApp" pc="268435836" symbol="getInitialView"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceApp.mc" id="7" lineNum="31" parent="globals/CadanceApp" pc="268435838" symbol="getInitialView"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceApp.mc" id="8" lineNum="9" parent="globals/CadanceApp" pc="268435879" symbol="initialize"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceApp.mc" id="8" lineNum="10" parent="globals/CadanceApp" pc="268435881" symbol="initialize"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceApp.mc" id="9" lineNum="19" parent="globals/CadanceApp" pc="268435900" symbol="onStop"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceApp.mc" id="10" lineNum="36" parent="globals" pc="268435903" symbol="getApp"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceApp.mc" id="10" lineNum="37" parent="globals" pc="268435913" symbol="getApp"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/bin/gen/006-B3076-00/source/Rez.mcgen" id="12" lineNum="7" parent="globals/Rez" pc="268435929" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceGlanceView.mc" id="13" lineNum="4" parent="globals/CadanceGlanceView" pc="268435953" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceGlanceView.mc" id="15" lineNum="10" parent="globals/CadanceGlanceView" pc="268435972" symbol="onLayout"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceGlanceView.mc" id="15" lineNum="11" parent="globals/CadanceGlanceView" pc="268435974" symbol="onLayout"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceGlanceView.mc" id="16" lineNum="5" parent="globals/CadanceGlanceView" pc="268436016" symbol="initialize"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceGlanceView.mc" id="16" lineNum="6" parent="globals/CadanceGlanceView" pc="268436018" symbol="initialize"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceGlanceView.mc" id="18" lineNum="21" parent="globals/CadanceGlanceView" pc="268436037" symbol="onUpdate"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceGlanceView.mc" id="18" lineNum="22" parent="globals/CadanceGlanceView" pc="268436039" symbol="onUpdate"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceGlanceView.mc" id="18" lineNum="23" parent="globals/CadanceGlanceView" pc="268436051" symbol="onUpdate"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceView.mc" id="20" lineNum="5" parent="globals/CadanceView" pc="268436076" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceView.mc" id="20" lineNum="10" parent="globals/CadanceView" pc="268436094" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceView.mc" id="22" lineNum="21" parent="globals/CadanceView" pc="268436129" symbol="onLayout"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceView.mc" id="22" lineNum="22" parent="globals/CadanceView" pc="268436131" symbol="onLayout"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceView.mc" id="22" lineNum="24" parent="globals/CadanceView" pc="268436172" symbol="onLayout"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceView.mc" id="22" lineNum="25" parent="globals/CadanceView" pc="268436202" symbol="onLayout"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceView.mc" id="22" lineNum="26" parent="globals/CadanceView" pc="268436232" symbol="onLayout"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceView.mc" id="22" lineNum="28" parent="globals/CadanceView" pc="268436262" symbol="onLayout"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceView.mc" id="22" lineNum="29" parent="globals/CadanceView" pc="268436297" symbol="onLayout"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceView.mc" id="23" lineNum="40" parent="globals/CadanceView" pc="268436330" symbol="onSensor"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceView.mc" id="23" lineNum="41" parent="globals/CadanceView" pc="268436332" symbol="onSensor"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceView.mc" id="23" lineNum="43" parent="globals/CadanceView" pc="268436352" symbol="onSensor"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceView.mc" id="23" lineNum="45" parent="globals/CadanceView" pc="268436401" symbol="onSensor"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceView.mc" id="24" lineNum="16" parent="globals/CadanceView" pc="268436417" symbol="initialize"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceView.mc" id="24" lineNum="17" parent="globals/CadanceView" pc="268436419" symbol="initialize"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceView.mc" id="26" lineNum="50" parent="globals/CadanceView" pc="268436438" symbol="onUpdate"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceView.mc" id="26" lineNum="51" parent="globals/CadanceView" pc="268436440" symbol="onUpdate"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceView.mc" id="26" lineNum="52" parent="globals/CadanceView" pc="268436452" symbol="onUpdate"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceView.mc" id="26" lineNum="54" parent="globals/CadanceView" pc="268436472" symbol="onUpdate"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceView.mc" id="26" lineNum="55" parent="globals/CadanceView" pc="268436516" symbol="onUpdate"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceView.mc" id="26" lineNum="56" parent="globals/CadanceView" pc="268436560" symbol="onUpdate"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" id="27" lineNum="35" parent="globals/CadanceDataDelegate" pc="268436605" symbol="getEnergy"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" id="27" lineNum="36" parent="globals/CadanceDataDelegate" pc="268436607" symbol="getEnergy"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" id="28" lineNum="27" parent="globals/CadanceDataDelegate" pc="268436616" symbol="getCadence"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" id="28" lineNum="28" parent="globals/CadanceDataDelegate" pc="268436618" symbol="getCadence"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" id="29" lineNum="39" parent="globals/CadanceDataDelegate" pc="268436627" symbol="updateFields"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" id="29" lineNum="42" parent="globals/CadanceDataDelegate" pc="268436631" symbol="updateFields"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" id="29" lineNum="43" parent="globals/CadanceDataDelegate" pc="268436654" symbol="updateFields"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" id="29" lineNum="44" parent="globals/CadanceDataDelegate" pc="268436676" symbol="updateFields"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" id="29" lineNum="45" parent="globals/CadanceDataDelegate" pc="268436698" symbol="updateFields"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" id="29" lineNum="47" parent="globals/CadanceDataDelegate" pc="268436726" symbol="updateFields"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" id="29" lineNum="48" parent="globals/CadanceDataDelegate" pc="268436739" symbol="updateFields"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" id="29" lineNum="50" parent="globals/CadanceDataDelegate" pc="268436755" symbol="updateFields"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" id="29" lineNum="56" parent="globals/CadanceDataDelegate" pc="268436759" symbol="updateFields"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" id="29" lineNum="57" parent="globals/CadanceDataDelegate" pc="268436781" symbol="updateFields"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" id="29" lineNum="58" parent="globals/CadanceDataDelegate" pc="268436812" symbol="updateFields"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" id="29" lineNum="59" parent="globals/CadanceDataDelegate" pc="268436819" symbol="updateFields"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" id="29" lineNum="60" parent="globals/CadanceDataDelegate" pc="268436832" symbol="updateFields"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" id="29" lineNum="62" parent="globals/CadanceDataDelegate" pc="268436878" symbol="updateFields"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" id="29" lineNum="64" parent="globals/CadanceDataDelegate" pc="268436885" symbol="updateFields"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" id="29" lineNum="66" parent="globals/CadanceDataDelegate" pc="268436890" symbol="updateFields"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" id="29" lineNum="65" parent="globals/CadanceDataDelegate" pc="268436890" symbol="updateFields"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" id="29" lineNum="68" parent="globals/CadanceDataDelegate" pc="268436979" symbol="updateFields"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" id="29" lineNum="69" parent="globals/CadanceDataDelegate" pc="268437001" symbol="updateFields"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" id="29" lineNum="70" parent="globals/CadanceDataDelegate" pc="268437042" symbol="updateFields"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" id="29" lineNum="73" parent="globals/CadanceDataDelegate" pc="268437089" symbol="updateFields"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" id="29" lineNum="74" parent="globals/CadanceDataDelegate" pc="268437111" symbol="updateFields"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" id="29" lineNum="75" parent="globals/CadanceDataDelegate" pc="268437142" symbol="updateFields"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" id="29" lineNum="76" parent="globals/CadanceDataDelegate" pc="268437186" symbol="updateFields"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" id="29" lineNum="77" parent="globals/CadanceDataDelegate" pc="268437199" symbol="updateFields"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" id="29" lineNum="79" parent="globals/CadanceDataDelegate" pc="268437245" symbol="updateFields"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" id="30" lineNum="16" parent="globals/CadanceDataDelegate" pc="268437290" symbol="initialize"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" id="30" lineNum="21" parent="globals/CadanceDataDelegate" pc="268437294" symbol="initialize"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" id="30" lineNum="24" parent="globals/CadanceDataDelegate" pc="268437322" symbol="initialize"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" id="31" lineNum="31" parent="globals/CadanceDataDelegate" pc="268437359" symbol="getHeartRate"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/CadanceDataDelegate.mc" id="31" lineNum="32" parent="globals/CadanceDataDelegate" pc="268437361" symbol="getHeartRate"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/exceptions/HeartRateRangeException.mc" id="32" lineNum="3" parent="globals/HeartRateRangeException" pc="268437370" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/exceptions/HeartRateRangeException.mc" id="33" lineNum="6" parent="globals/HeartRateRangeException" pc="268437389" symbol="initialize"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/exceptions/HeartRateRangeException.mc" id="33" lineNum="7" parent="globals/HeartRateRangeException" pc="268437391" symbol="initialize"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/exceptions/HeartRateRangeException.mc" id="33" lineNum="8" parent="globals/HeartRateRangeException" pc="268437409" symbol="initialize"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/exceptions/HeartRateRangeException.mc" id="34" lineNum="11" parent="globals/HeartRateRangeException" pc="268437414" symbol="getErrorMessage"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/exceptions/HeartRateRangeException.mc" id="34" lineNum="12" parent="globals/HeartRateRangeException" pc="268437416" symbol="getErrorMessage"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/bin/gen/006-B3076-00/source/Rez.mcgen" id="35" lineNum="32" parent="globals/Rez/Layouts" pc="268437437" symbol="GlanceLayout"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/bin/gen/006-B3076-00/source/Rez.mcgen" id="35" lineNum="33" parent="globals/Rez/Layouts" pc="268437449" symbol="GlanceLayout"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/bin/gen/006-B3076-00/source/Rez.mcgen" id="35" lineNum="35" parent="globals/Rez/Layouts" pc="268437597" symbol="GlanceLayout"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/bin/gen/006-B3076-00/source/Rez.mcgen" id="36" lineNum="20" parent="globals/Rez/Layouts" pc="268437614" symbol="MainLayout"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/bin/gen/006-B3076-00/source/Rez.mcgen" id="36" lineNum="21" parent="globals/Rez/Layouts" pc="268437626" symbol="MainLayout"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/bin/gen/006-B3076-00/source/Rez.mcgen" id="36" lineNum="23" parent="globals/Rez/Layouts" pc="268437751" symbol="MainLayout"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/bin/gen/006-B3076-00/source/Rez.mcgen" id="36" lineNum="25" parent="globals/Rez/Layouts" pc="268437876" symbol="MainLayout"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/bin/gen/006-B3076-00/source/Rez.mcgen" id="36" lineNum="27" parent="globals/Rez/Layouts" pc="268438001" symbol="MainLayout"/>
+        <entry filename="/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/bin/gen/006-B3076-00/source/Rez.mcgen" id="36" lineNum="29" parent="globals/Rez/Layouts" pc="268438126" symbol="MainLayout"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
         <entry id="8389346" symbol="text"/>
-        <entry id="38" method="true" symbol="GlanceLayout"/>
-        <entry field="true" id="27" symbol="heartRateText"/>
+        <entry id="41" method="true" symbol="GlanceLayout"/>
+        <entry field="true" id="29" symbol="heartRateText"/>
         <entry id="10" object="true" symbol="CadanceAlgorithmDelegate"/>
-        <entry id="31" method="true" symbol="getCadence"/>
+        <entry id="33" method="true" symbol="getCadence"/>
         <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
         <entry id="8" module="true" symbol="globals/Rez/Menus"/>
-        <entry id="39" method="true" symbol="MainLayout"/>
-        <entry id="35" method="true" symbol="updateFields"/>
-        <entry field="true" id="23" symbol="dataDelegate"/>
-        <entry field="true" id="25" symbol="energyText"/>
+        <entry id="42" method="true" symbol="MainLayout"/>
+        <entry id="37" method="true" symbol="updateFields"/>
+        <entry field="true" id="25" symbol="dataDelegate"/>
+        <entry field="true" id="27" symbol="energyText"/>
         <entry id="8388647" module="true" symbol="UserProfile"/>
         <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-        <entry field="true" id="34" symbol="profile"/>
+        <entry field="true" id="36" symbol="profile"/>
         <entry id="8388649" module="true" object="true" symbol="Test"/>
         <entry id="2" module="true" symbol="globals/CadanceAlgorithmDelegate/&lt;statics&gt;"/>
-        <entry field="true" id="40" symbol="AppName"/>
+        <entry field="true" id="43" symbol="AppName"/>
         <entry id="9" module="true" symbol="globals/Rez/Strings"/>
         <entry id="8388772" module="true" object="true" symbol="Fonts"/>
-        <entry id="33" method="true" symbol="getHeartRate"/>
+        <entry id="35" method="true" symbol="getHeartRate"/>
         <entry id="11" object="true" symbol="CadanceApp"/>
         <entry id="8388648" module="true" symbol="WatchUi"/>
-        <entry field="true" id="37" symbol="music"/>
+        <entry field="true" id="40" symbol="music"/>
         <entry id="3" module="true" symbol="globals/Rez"/>
         <entry id="13" object="true" symbol="CadanceGlanceView"/>
         <entry field="true" id="8388959" symbol="cadence"/>
@@ -139,32 +148,36 @@
         <entry id="8389124" method="true" symbol="onUpdate"/>
         <entry field="true" id="8389065" symbol="locY"/>
         <entry field="true" id="8389064" symbol="locX"/>
-        <entry field="true" id="24" symbol="energyLabel"/>
+        <entry field="true" id="26" symbol="energyLabel"/>
         <entry id="15" object="true" symbol="Constants"/>
         <entry id="8388771" module="true" object="true" symbol="Drawables"/>
         <entry id="8389348" symbol="font"/>
-        <entry field="true" id="30" symbol="energy"/>
-        <entry id="20" module="true" symbol="Menus"/>
+        <entry field="true" id="32" symbol="energy"/>
+        <entry id="22" module="true" symbol="Menus"/>
         <entry id="8389275" method="true" symbol="getApp"/>
         <entry id="7" module="true" symbol="globals/Rez/Layouts"/>
-        <entry field="true" id="29" symbol="dynamics"/>
+        <entry field="true" id="31" symbol="dynamics"/>
         <entry id="8389122" method="true" symbol="onLayout"/>
         <entry field="true" id="8389063" symbol="identifier"/>
+        <entry field="true" id="38" symbol="hr"/>
         <entry id="8389349" symbol="justification"/>
         <entry id="6" module="true" symbol="globals/Rez/JsonData"/>
+        <entry id="16" object="true" symbol="HeartRateRangeException"/>
         <entry id="14" object="true" symbol="CadanceView"/>
         <entry id="4" module="true" symbol="globals/Rez/Drawables"/>
-        <entry field="true" id="22" symbol="cadenceText"/>
-        <entry id="32" method="true" symbol="getEnergy"/>
+        <entry field="true" id="24" symbol="cadenceText"/>
+        <entry id="34" method="true" symbol="getEnergy"/>
+        <entry id="17" object="true" symbol="TestConstants"/>
+        <entry id="8389587" method="true" symbol="getErrorMessage"/>
         <entry id="8388769" module="true" object="true" symbol="Rez"/>
-        <entry field="true" id="21" symbol="cadenceLabel"/>
+        <entry field="true" id="23" symbol="cadenceLabel"/>
         <entry id="8388640" module="true" symbol="Lang"/>
-        <entry id="28" method="true" symbol="onSensor"/>
+        <entry id="30" method="true" symbol="onSensor"/>
         <entry id="8390088" module="true" object="true" symbol="JsonData"/>
         <entry id="12" object="true" symbol="CadanceDataDelegate"/>
-        <entry field="true" id="36" symbol="LauncherIcon"/>
+        <entry field="true" id="39" symbol="LauncherIcon"/>
         <entry id="8388610" symbol="statics"/>
-        <entry id="17" method="true" symbol="hrToEnergy"/>
+        <entry id="19" method="true" symbol="hrToEnergy"/>
         <entry id="8389123" method="true" symbol="onShow"/>
         <entry id="8388643" module="true" symbol="Sensor"/>
         <entry id="8391456" method="true" symbol="onGlanceEvent"/>
@@ -173,17 +186,17 @@
         <entry field="true" id="8388960" symbol="heartRate"/>
         <entry id="8388702" method="true" symbol="initialize"/>
         <entry id="8389279" method="true" symbol="onStart"/>
-        <entry field="true" id="18" symbol="view"/>
+        <entry field="true" id="20" symbol="view"/>
         <entry id="8388641" module="true" symbol="Math"/>
         <entry id="8389280" method="true" symbol="getInitialView"/>
         <entry id="8389281" method="true" symbol="onStop"/>
         <entry id="8389347" symbol="color"/>
-        <entry id="19" module="true" symbol="Layouts"/>
-        <entry field="true" id="26" symbol="heartRateLabel"/>
+        <entry id="21" module="true" symbol="Layouts"/>
+        <entry field="true" id="28" symbol="heartRateLabel"/>
         <entry id="5" module="true" symbol="globals/Rez/Fonts"/>
         <entry id="8389125" method="true" symbol="onHide"/>
         <entry id="8388635" module="true" symbol="Application"/>
-        <entry id="16" method="true" symbol="cadenceToEnergy"/>
+        <entry id="18" method="true" symbol="cadenceToEnergy"/>
     </symbolTable>
     <localVars>
         <entry arg="true" endPc="268435647" name="cadence" stackId="1" startPc="268435460"/>
@@ -196,26 +209,28 @@
         <entry endPc="268435647" name="max" stackId="8" startPc="268435464"/>
         <entry endPc="268435647" name="min" stackId="9" startPc="268435464"/>
         <entry endPc="268435647" name="energy" stackId="10" startPc="268435464"/>
-        <entry arg="true" endPc="268435751" name="hr" stackId="1" startPc="268435648"/>
-        <entry endPc="268435751" name="res" stackId="2" startPc="268435652"/>
-        <entry arg="true" endPc="268435816" name="options" stackId="1" startPc="268435774"/>
-        <entry arg="true" endPc="268435996" name="dc" stackId="1" startPc="268435953"/>
-        <entry arg="true" endPc="268436056" name="dc" stackId="1" startPc="268436018"/>
-        <entry arg="true" endPc="268436310" name="dc" stackId="1" startPc="268436110"/>
-        <entry arg="true" endPc="268436397" name="sensorInfo" stackId="1" startPc="268436311"/>
-        <entry arg="true" endPc="268436585" name="dc" stackId="1" startPc="268436419"/>
-        <entry arg="true" endPc="268437207" name="sensorInfo" stackId="1" startPc="268436608"/>
-        <entry endPc="268437206" name="male" stackId="2" startPc="268436612"/>
-        <entry endPc="268437206" name="height" stackId="3" startPc="268436612"/>
-        <entry endPc="268437003" name="cadenceUpdated" stackId="4" startPc="268436720"/>
-        <entry endPc="268437275" name="listener" stackId="1" startPc="268437212"/>
-        <entry arg="true" endPc="268437464" name="dc" stackId="1" startPc="268437288"/>
-        <entry endPc="268437464" name="rez_cmp_local_text_title" stackId="2" startPc="268437300"/>
-        <entry arg="true" endPc="268438023" name="dc" stackId="1" startPc="268437465"/>
-        <entry endPc="268438023" name="rez_cmp_local_text_title" stackId="2" startPc="268437477"/>
-        <entry endPc="268438023" name="rez_cmp_local_text_Energy" stackId="3" startPc="268437477"/>
-        <entry endPc="268438023" name="rez_cmp_local_text_heartRate" stackId="4" startPc="268437477"/>
-        <entry endPc="268438023" name="rez_cmp_local_text_cadence" stackId="5" startPc="268437477"/>
+        <entry arg="true" endPc="268435770" name="hr" stackId="1" startPc="268435648"/>
+        <entry endPc="268435770" name="res" stackId="2" startPc="268435652"/>
+        <entry arg="true" endPc="268435835" name="options" stackId="1" startPc="268435793"/>
+        <entry arg="true" endPc="268436015" name="dc" stackId="1" startPc="268435972"/>
+        <entry arg="true" endPc="268436075" name="dc" stackId="1" startPc="268436037"/>
+        <entry arg="true" endPc="268436329" name="dc" stackId="1" startPc="268436129"/>
+        <entry arg="true" endPc="268436416" name="sensorInfo" stackId="1" startPc="268436330"/>
+        <entry arg="true" endPc="268436604" name="dc" stackId="1" startPc="268436438"/>
+        <entry arg="true" endPc="268437289" name="sensorInfo" stackId="1" startPc="268436627"/>
+        <entry endPc="268437288" name="male" stackId="2" startPc="268436631"/>
+        <entry endPc="268437288" name="height" stackId="3" startPc="268436631"/>
+        <entry endPc="268437085" name="cadenceUpdated" stackId="4" startPc="268436739"/>
+        <entry endPc="268437077" name="e" stackId="5" startPc="268436979"/>
+        <entry endPc="268437357" name="listener" stackId="1" startPc="268437294"/>
+        <entry arg="true" endPc="268437413" name="hr" stackId="1" startPc="268437389"/>
+        <entry arg="true" endPc="268437613" name="dc" stackId="1" startPc="268437437"/>
+        <entry endPc="268437613" name="rez_cmp_local_text_title" stackId="2" startPc="268437449"/>
+        <entry arg="true" endPc="268438172" name="dc" stackId="1" startPc="268437614"/>
+        <entry endPc="268438172" name="rez_cmp_local_text_title" stackId="2" startPc="268437626"/>
+        <entry endPc="268438172" name="rez_cmp_local_text_Energy" stackId="3" startPc="268437626"/>
+        <entry endPc="268438172" name="rez_cmp_local_text_heartRate" stackId="4" startPc="268437626"/>
+        <entry endPc="268438172" name="rez_cmp_local_text_cadence" stackId="5" startPc="268437626"/>
     </localVars>
     <annotations>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
@@ -224,20 +239,22 @@
     </annotations>
     <dataEntryOffsetMappings>
         <dataEntry label="globals" offset="95" parentId="" symbolId="globals" type="module"/>
-        <dataEntry label="globals/CadanceAlgorithmDelegate" offset="198" parentId="globals" symbolId="CadanceAlgorithmDelegate" type="class"/>
-        <dataEntry label="globals/CadanceAlgorithmDelegate/&lt;statics&gt;" offset="245" parentId="CadanceAlgorithmDelegate" symbolId="&lt;statics&gt;" type="module"/>
-        <dataEntry label="globals/CadanceApp" offset="292" parentId="globals" symbolId="CadanceApp" type="class"/>
-        <dataEntry label="globals/Rez" offset="379" parentId="globals" symbolId="Rez" type="module"/>
-        <dataEntry label="globals/CadanceGlanceView" offset="458" parentId="globals" symbolId="CadanceGlanceView" type="class"/>
-        <dataEntry label="globals/Constants" offset="537" parentId="globals" symbolId="Constants" type="class"/>
-        <dataEntry label="globals/CadanceView" offset="584" parentId="globals" symbolId="CadanceView" type="class"/>
-        <dataEntry label="globals/CadanceDataDelegate" offset="727" parentId="globals" symbolId="CadanceDataDelegate" type="class"/>
-        <dataEntry label="globals/Rez/Drawables" offset="846" parentId="Rez" symbolId="Drawables" type="module"/>
-        <dataEntry label="globals/Rez/Layouts" offset="893" parentId="Rez" symbolId="Layouts" type="module"/>
-        <dataEntry label="globals/Rez/Menus" offset="940" parentId="Rez" symbolId="Menus" type="module"/>
-        <dataEntry label="globals/Rez/Fonts" offset="971" parentId="Rez" symbolId="Fonts" type="module"/>
-        <dataEntry label="globals/Rez/Strings" offset="1002" parentId="Rez" symbolId="Strings" type="module"/>
-        <dataEntry label="globals/Rez/JsonData" offset="1041" parentId="Rez" symbolId="JsonData" type="module"/>
+        <dataEntry label="globals/CadanceAlgorithmDelegate" offset="214" parentId="globals" symbolId="CadanceAlgorithmDelegate" type="class"/>
+        <dataEntry label="globals/CadanceAlgorithmDelegate/&lt;statics&gt;" offset="261" parentId="CadanceAlgorithmDelegate" symbolId="&lt;statics&gt;" type="module"/>
+        <dataEntry label="globals/CadanceApp" offset="308" parentId="globals" symbolId="CadanceApp" type="class"/>
+        <dataEntry label="globals/TestConstants" offset="395" parentId="globals" symbolId="TestConstants" type="class"/>
+        <dataEntry label="globals/Rez" offset="442" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/CadanceGlanceView" offset="521" parentId="globals" symbolId="CadanceGlanceView" type="class"/>
+        <dataEntry label="globals/Constants" offset="600" parentId="globals" symbolId="Constants" type="class"/>
+        <dataEntry label="globals/CadanceView" offset="647" parentId="globals" symbolId="CadanceView" type="class"/>
+        <dataEntry label="globals/CadanceDataDelegate" offset="790" parentId="globals" symbolId="CadanceDataDelegate" type="class"/>
+        <dataEntry label="globals/HeartRateRangeException" offset="909" parentId="globals" symbolId="HeartRateRangeException" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="972" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="1019" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Menus" offset="1066" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry label="globals/Rez/Fonts" offset="1097" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="1128" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/Rez/JsonData" offset="1167" parentId="Rez" symbolId="JsonData" type="module"/>
     </dataEntryOffsetMappings>
     <functions>
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="CadanceAlgorithmDelegate">
@@ -255,54 +272,60 @@
         <functionEntry accessMode="public" name="initialize" parent="CadanceAlgorithmDelegate">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435751" name="hrToEnergy" parent="CadanceAlgorithmDelegate" startPc="268435648">
+        <functionEntry accessMode="public" endPc="268435770" name="hrToEnergy" parent="CadanceAlgorithmDelegate" startPc="268435648">
             <param id="hr"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435770" name="&lt;init&gt;" parent="CadanceApp" startPc="268435752">
+        <functionEntry accessMode="public" endPc="268435789" name="&lt;init&gt;" parent="CadanceApp" startPc="268435771">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435773" name="onStart" parent="CadanceApp" startPc="268435771">
+        <functionEntry accessMode="public" endPc="268435792" name="onStart" parent="CadanceApp" startPc="268435790">
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435816" name="onGlanceEvent" parent="CadanceApp" startPc="268435774">
+        <functionEntry accessMode="public" endPc="268435835" name="onGlanceEvent" parent="CadanceApp" startPc="268435793">
             <param id="options"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435859" name="getInitialView" parent="CadanceApp" startPc="268435817">
+        <functionEntry accessMode="public" endPc="268435878" name="getInitialView" parent="CadanceApp" startPc="268435836">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435880" name="initialize" parent="CadanceApp" startPc="268435860">
+        <functionEntry accessMode="public" endPc="268435899" name="initialize" parent="CadanceApp" startPc="268435879">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435883" name="onStop" parent="CadanceApp" startPc="268435881">
+        <functionEntry accessMode="public" endPc="268435902" name="onStop" parent="CadanceApp" startPc="268435900">
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435909" name="getApp" startPc="268435884">
+        <functionEntry accessMode="public" endPc="268435928" name="getApp" startPc="268435903">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435933" name="&lt;init&gt;" parent="Rez" startPc="268435910">
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="TestConstants">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435952" name="&lt;init&gt;" parent="CadanceGlanceView" startPc="268435934">
+        <functionEntry accessMode="public" name="initialize" parent="TestConstants">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435952" name="&lt;init&gt;" parent="Rez" startPc="268435929">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435971" name="&lt;init&gt;" parent="CadanceGlanceView" startPc="268435953">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="onShow" parent="CadanceGlanceView">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435996" name="onLayout" parent="CadanceGlanceView" startPc="268435953">
+        <functionEntry accessMode="public" endPc="268436015" name="onLayout" parent="CadanceGlanceView" startPc="268435972">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436017" name="initialize" parent="CadanceGlanceView" startPc="268435997">
+        <functionEntry accessMode="public" endPc="268436036" name="initialize" parent="CadanceGlanceView" startPc="268436016">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="onHide" parent="CadanceGlanceView">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436056" name="onUpdate" parent="CadanceGlanceView" startPc="268436018">
+        <functionEntry accessMode="public" endPc="268436075" name="onUpdate" parent="CadanceGlanceView" startPc="268436037">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
@@ -312,47 +335,57 @@
         <functionEntry accessMode="public" name="initialize" parent="Constants">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436109" name="&lt;init&gt;" parent="CadanceView" startPc="268436057">
+        <functionEntry accessMode="public" endPc="268436128" name="&lt;init&gt;" parent="CadanceView" startPc="268436076">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="onShow" parent="CadanceView">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436310" name="onLayout" parent="CadanceView" startPc="268436110">
+        <functionEntry accessMode="public" endPc="268436329" name="onLayout" parent="CadanceView" startPc="268436129">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436397" name="onSensor" parent="CadanceView" startPc="268436311">
+        <functionEntry accessMode="public" endPc="268436416" name="onSensor" parent="CadanceView" startPc="268436330">
             <param id="sensorInfo"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436418" name="initialize" parent="CadanceView" startPc="268436398">
+        <functionEntry accessMode="public" endPc="268436437" name="initialize" parent="CadanceView" startPc="268436417">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="onHide" parent="CadanceView">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436585" name="onUpdate" parent="CadanceView" startPc="268436419">
+        <functionEntry accessMode="public" endPc="268436604" name="onUpdate" parent="CadanceView" startPc="268436438">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="CadanceDataDelegate">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436596" name="getEnergy" parent="CadanceDataDelegate" startPc="268436586">
+        <functionEntry accessMode="public" endPc="268436615" name="getEnergy" parent="CadanceDataDelegate" startPc="268436605">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436607" name="getCadence" parent="CadanceDataDelegate" startPc="268436597">
+        <functionEntry accessMode="public" endPc="268436626" name="getCadence" parent="CadanceDataDelegate" startPc="268436616">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437207" name="updateFields" parent="CadanceDataDelegate" startPc="268436608">
+        <functionEntry accessMode="public" endPc="268437289" name="updateFields" parent="CadanceDataDelegate" startPc="268436627">
             <param id="sensorInfo"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437276" name="initialize" parent="CadanceDataDelegate" startPc="268437208">
+        <functionEntry accessMode="public" endPc="268437358" name="initialize" parent="CadanceDataDelegate" startPc="268437290">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437287" name="getHeartRate" parent="CadanceDataDelegate" startPc="268437277">
+        <functionEntry accessMode="public" endPc="268437369" name="getHeartRate" parent="CadanceDataDelegate" startPc="268437359">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437388" name="&lt;init&gt;" parent="HeartRateRangeException" startPc="268437370">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437413" name="initialize" parent="HeartRateRangeException" startPc="268437389">
+            <param id="hr"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437436" name="getErrorMessage" parent="HeartRateRangeException" startPc="268437414">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
@@ -373,11 +406,11 @@
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="JsonData">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437464" name="GlanceLayout" parent="Layouts" startPc="268437288">
+        <functionEntry accessMode="public" endPc="268437613" name="GlanceLayout" parent="Layouts" startPc="268437437">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438023" name="MainLayout" parent="Layouts" startPc="268437465">
+        <functionEntry accessMode="public" endPc="268438172" name="MainLayout" parent="Layouts" startPc="268437614">
             <param id="dc"/>
             <documentation/>
         </functionEntry>

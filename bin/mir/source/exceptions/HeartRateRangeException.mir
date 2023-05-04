@@ -1,0 +1,42 @@
+[ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/exceptions/HeartRateRangeException.mc"; @line = 1; ]
+using Toybox.Lang;
+[ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/exceptions/HeartRateRangeException.mc"; @line = 3; ]
+class HeartRateRangeException extends Lang.Exception{
+    [ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/exceptions/HeartRateRangeException.mc"; @line = 3; ]
+    <init> {
+    }
+    [ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/exceptions/HeartRateRangeException.mc"; @line = 3; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/exceptions/HeartRateRangeException.mc"; @line = 4; @position = 15; ]
+    protected
+    var hr as Lang.Number = -1;
+    [ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/exceptions/HeartRateRangeException.mc"; @line = 6; ]
+    function initialize(hr as Lang.Number) as Void {
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_exceptions_HeartRateRangeException_mc_6_43_start:
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/exceptions/HeartRateRangeException.mc" 7 8 ]
+        %tmp.2 = getv ? :Exception;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/exceptions/HeartRateRangeException.mc" 8 8 ]
+        %tmp.5 = lgetv %hr;
+        lputv %hr %tmp.5;
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_exceptions_HeartRateRangeException_mc_6_43_stop:
+    }
+    [ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/exceptions/HeartRateRangeException.mc"; @line = 11; ]
+    function getErrorMessage() {
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_exceptions_HeartRateRangeException_mc_11_31_start:
+[ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/exceptions/HeartRateRangeException.mc" 12 8 ]
+        %tmp.1 = "Heart rate ";
+        %tmp.3 = getv ? :hr;
+        %tmp.4 = add %tmp.1 %tmp.3;
+        %tmp.5 = " not in range 90-210";
+        %tmp.6 = add %tmp.4 %tmp.5;
+        ret %tmp.6;
+_Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_source_exceptions_HeartRateRangeException_mc_11_31_stop:
+    }
+}
+[ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/source/exceptions/HeartRateRangeException.mc"; @line = 1; ]
+<init> {
+}

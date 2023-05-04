@@ -62,10 +62,13 @@ class CadanceDataDelegate {
                 cadenceUpdated = true;
             }
             if(cadenceUpdated){
+                try{
                 energy = Constants.CADENCE_WEIGHT * CadanceAlgorithmDelegate.cadenceToEnergy(cadence, height, male) + 
                  Constants.HR_WEIGHT * CadanceAlgorithmDelegate.hrToEnergy(heartRate);
-
-                System.println(CadanceAlgorithmDelegate.hrToEnergy(heartRate));
+                } catch(e instanceof Toybox.Lang.Exception){
+                   energy = CadanceAlgorithmDelegate.cadenceToEnergy(cadence, height, male);
+                   System.println(e.getErrorMessage());
+                }
             }
         } else if(dynamics.getRunningDynamics() != null){
             cadence = dynamics.getRunningDynamics().cadence;
