@@ -1,5 +1,8 @@
 import Toybox.Lang;
+//Stores constants for the test cases.
 
-class TestConstants{
-    static const EXPECTED_ENERGY_1 = .5;
+(:test)
+class TestConstants {
+  // Expected energy value for the first test.
+  static const EXPECTED_ENERGY_1 = 0.5;
 }
