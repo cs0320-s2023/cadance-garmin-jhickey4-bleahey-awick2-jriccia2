@@ -1,4 +1,0 @@
-project.manifest=../../manifest.xml
-fr245.sourcePath = group000-debug/source/**.mc
-fr245.resourcePath = ../../resources
-fr245.personality = ../../resources

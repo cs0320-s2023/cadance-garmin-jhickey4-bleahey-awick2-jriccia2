@@ -1,7 +1,0 @@
-[ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/bin/optimized/group000-debug/source/test/AlgorithmTest.mc"; @line = 1; ]
-using Toybox.Test;
-[ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/bin/optimized/group000-debug/source/test/AlgorithmTest.mc"; @line = 3; @position = 4; ]
-var undefined;
-[ @file = "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/bin/optimized/group000-debug/source/test/AlgorithmTest.mc"; @line = 1; ]
-<init> {
-}
