@@ -11,7 +11,7 @@ Joey Ricciardi (jriccia2)
 **Git Repo Link:**
 https://github.com/cs0320-s2023/cadance-garmin-jhickey4-bleahey-awick2-jriccia2/tree/main/source
 
-**Privacy/Use of Data**
+**Privacy/Use of Data:**
 This application requires access to the user's heart rate data, running/biking
 cadence, height, and gender. This data is used to calculate the user's
 estimated energy expended during an activity. This data is not stored or
@@ -123,7 +123,8 @@ Currently, the application is not fully functional. The following is a list of
 known bugs:
 
 - The application is not currently capable of handling key presses. This means
-  that the user cannot navigate the application using the buttons on the device.
+  that the user cannot navigate the application using the buttons on the device
+  after exiting glance mode.
   This error may be a consequence of the simulator, as there are generally no
   issues with anything but the back button, and the simulator does not have a
   base application to return to.

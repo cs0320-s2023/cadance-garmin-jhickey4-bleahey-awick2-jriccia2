@@ -129,7 +129,8 @@ _Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_test_AlgorithmTest_
 [ "/Users/BrendanLeahey/Desktop/Independent/ConnectApps/Cadance/test/AlgorithmTest.mc" 34 8 ]
     %tmp.29 = getv ? :CadanceAlgorithmDelegate;
     %tmp.30 = getv function %tmp.29 :hrToEnergy;
-    %tmp.32 = getv ? :undefined;
+    %tmp.31 = 1;
+    %tmp.32 = sub 0 %tmp.31;
     invoke %tmp.29 %tmp.30(%tmp.32);
 _Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_test_AlgorithmTest_mc_33_7_stop:
 _Users_BrendanLeahey_Desktop_Independent_ConnectApps_Cadance_test_AlgorithmTest_mc_33_4_endTry:
