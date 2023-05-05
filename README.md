@@ -18,7 +18,7 @@ https://github.com/cs0320-s2023/cadance-garmin-jhickey4-bleahey-awick2-jriccia2/
 **Description:**
 CaDance for Garmin is a Garmin Connect IQ application that uses the sensor data
 from a Garmin Forerunner 245 Music to generate the fields required for the
-CaDance web application (https://github.com/cs0320-s2023/final-project-jhickey4-bleahey-awick2-jriccia2). 
+[CaDance web application](https://github.com/cs0320-s2023/final-project-jhickey4-bleahey-awick2-jriccia2). 
 This includes the user's Spotify energy input and running cadence. It allows these fields to be estimated
 more accurately and in real time, as opposed to the current method of manual entry by the user on the
 web app based on their own estimations.
