@@ -111,11 +111,6 @@ function cadenceToEnergyBasicTestFemale(logger) {
     male
   );
 
-  logger.debug("smallEnergy: " + smallEnergy);
-  logger.debug("medEnergy: " + medEnergy);
-  logger.debug("highEnergy: " + highEnergy);
-  logger.debug("veryHighEnergy: " + veryHighEnergy);
-
   var inRangeSmall = smallEnergy > 0d && smallEnergy < 1d;
   var inRangeMed = medEnergy > 0d && medEnergy < 1d;
   var inRangeHigh = highEnergy > 0d && highEnergy < 1d;
