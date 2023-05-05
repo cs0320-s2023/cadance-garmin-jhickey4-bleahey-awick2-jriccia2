@@ -3,20 +3,17 @@
 ## Project Details:
 
 **Contributors:**
+
 Brendan Leahey (bleahey)
+
 Justin Hickey (jhickey4)
+
 Alex Wick (awick2)
-Joey Ricciardi (jriccia2)
+
+Joey Ricciarduli (jriccia2)
 
 **Git Repo Link:**
 https://github.com/cs0320-s2023/cadance-garmin-jhickey4-bleahey-awick2-jriccia2/tree/main/source
-
-**Privacy/Use of Data:**
-This application requires access to the user's heart rate data, running/biking
-cadence, height, and gender. This data is used to calculate the user's
-estimated energy expended during an activity. This data is not stored or
-transmitted anywhere outside of the device/simulator, nor is it used for any other
-purpose.
 
 **Description:**
 CaDance for Garmin is a Garmin Connect IQ application that uses the sensor data
@@ -25,6 +22,13 @@ CaDance web application. This includes the user's Spotify energy input and
 running cadence. It allows these fields to be estimated more accurately and in
 real time, as opposed to the current method of manual entry by the user on the
 web app based on their own estimations.
+
+**Privacy/Use of Data:**
+This application requires access to the user's heart rate data, running/biking
+cadence, height, and gender. This data is used to calculate the user's
+estimated energy expended during an activity. This data is not stored or
+transmitted anywhere outside of the device/simulator, nor is it used for any other
+purpose.
 
 The application is currently in development and is not yet released
 beyond the simulator.
@@ -54,12 +58,21 @@ https://developer.garmin.com/connect-iq/connect-iq-basics/
 ### Running the application
 
 Once configured, you must first build the project from the command palette
-("Monkey C: Build Current Project").
-Then, run the simulator by selecting "Run without debugging"
-from the "Run" menu in VSCode. This will open the simulator and run the
-application. Alternat
+("Monkey C: Build Current Project"). You will know if this has been completed
+successfully if there is a bin folder in the root directory of the project. Once
+this bin directory exists, you will not have to build the project again unless
+you make changes to the code.
 
-Once the simulator is open, you will notice the fields such as "Heart Rate", are
+Next, run the simulator by selecting "Run without debugging"
+from the "Run" menu in VSCode. This will open the simulator and run the
+application.
+
+The simulator will open in "Glance Mode", which is the default mode for the
+application. To move past this screen, press the "Start" button on the simulator
+or the enter button on the keyboard. This will bring you to the main screen of
+the application.
+
+In this application, you will notice the fields such as "Heart Rate", are
 not populated. While there are several ways of simulating these fields, we
 believe the most accurate is importing a .fit file.
 
