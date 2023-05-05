@@ -12,6 +12,10 @@ class CadanceView extends WatchUi.View {
   hidden var energyLabel;
   hidden var cadenceLabel;
   hidden var heartRateLabel;
+  hidden var energyText;
+  hidden var cadenceText;
+  hidden var heartRateText;
+  hidden var energyFormat;
 
   function initialize() {
     View.initialize();
@@ -26,6 +30,11 @@ class CadanceView extends WatchUi.View {
     energyLabel = View.findDrawableById("Energy");
     heartRateLabel = View.findDrawableById("heartRate");
     cadenceLabel = View.findDrawableById("cadence");
+
+    energyText = WatchUi.loadResource(Rez.Strings.EnergyText);
+    cadenceText = WatchUi.loadResource(Rez.Strings.CadenceText);
+    heartRateText = WatchUi.loadResource(Rez.Strings.HeartRateText);
+    energyFormat = WatchUi.loadResource(Rez.Strings.EnergyFormat);
 
     Sensor.setEnabledSensors([Sensor.SENSOR_HEARTRATE]);
     Sensor.enableSensorEvents(method(:onSensor));
@@ -51,22 +60,13 @@ class CadanceView extends WatchUi.View {
     dc.clear();
     View.onUpdate(dc);
 
-    //System.println(WatchUi.loadResource(Rez.Strings.EnergyFormat));
-
     var energyToDisplay = (
       Math.round(dataDelegate.getEnergy() * 100d) / 100d
-    ).format(WatchUi.loadResource(Rez.Strings.EnergyFormat));
+    ).format(energyFormat);
 
-    energyLabel.setText(
-      WatchUi.loadResource(Rez.Strings.EnergyText) + energyToDisplay
-    );
-    cadenceLabel.setText(
-      WatchUi.loadResource(Rez.Strings.CadenceText) + dataDelegate.getCadence()
-    );
-    heartRateLabel.setText(
-      WatchUi.loadResource(Rez.Strings.HeartRateText) +
-        dataDelegate.getHeartRate()
-    );
+    energyLabel.setText(energyText + energyToDisplay);
+    cadenceLabel.setText(cadenceText + dataDelegate.getCadence());
+    heartRateLabel.setText(heartRateText + dataDelegate.getHeartRate());
   }
 
   // Called when this View is removed from the screen. Save the
