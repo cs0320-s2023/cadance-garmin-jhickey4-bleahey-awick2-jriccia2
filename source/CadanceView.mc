@@ -1,6 +1,7 @@
 import Toybox.Graphics;
 import Toybox.WatchUi;
 import Toybox.Sensor;
+import Toybox.Math;
 
 // This is the main view of the application. It is responsible for
 // displaying the current cadence, heart rate, and recommended energy
@@ -54,7 +55,11 @@ class CadanceView extends WatchUi.View {
     dc.clear();
     View.onUpdate(dc);
 
-    energyLabel.setText(energyText + dataDelegate.getEnergy());
+    var energyToDisplay = (
+      Math.round(dataDelegate.getEnergy() * 100d) / 100d
+    ).format("%.2f");
+
+    energyLabel.setText(energyText + energyToDisplay);
     cadenceLabel.setText(cadenceText + dataDelegate.getCadence());
     heartRateLabel.setText(heartRateText + dataDelegate.getHeartRate());
   }

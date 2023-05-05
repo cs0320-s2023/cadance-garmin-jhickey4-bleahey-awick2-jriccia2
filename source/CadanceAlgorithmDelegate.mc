@@ -12,9 +12,7 @@ class CadanceAlgorithmDelegate {
       throw new HeartRateRangeException(hr);
     }
     var res = (hr - 90d) / (210d - 90d);
-    res = Math.round(res * 100) / 100d;
-
-    return res;
+    return res * 1d;
   }
 
   // Computes the Spotify input energy based on the user's cadence, height
@@ -41,6 +39,6 @@ class CadanceAlgorithmDelegate {
     } else if (energy < 0) {
       energy = 0;
     }
-    return Math.round(energy * 100d) / 100d;
+    return energy * 1d;
   }
 }
