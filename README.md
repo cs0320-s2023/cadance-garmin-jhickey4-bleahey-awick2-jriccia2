@@ -31,7 +31,7 @@ transmitted anywhere outside of the device/simulator, nor is it used for any oth
 purpose.
 
 The application is currently in development and is not yet released
-beyond the simulator.
+beyond the ciq simulator.
 
 ## Getting Started
 
