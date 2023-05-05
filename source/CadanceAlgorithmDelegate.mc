@@ -2,8 +2,6 @@ using Toybox.Math;
 using Toybox.Lang;
 
 class CadanceAlgorithmDelegate {
-  //TODO: decide whether to use user's heart rate ranges for increased accuracy
-
   // Computes the spotify input energy of a run based on the heart rate and
   // cadence. Heart rate is a number between 90 and 210.
   // Returns -1 as a flag for an invalid heart rate
