@@ -146,6 +146,10 @@ implemented if the device were to be released:
   to an ANT+ sensor, which would be used to calculate the proper cadence. We hope
   that our current implementation will actually carry this out properly once
   tested on a real device, but we have yet to confirm this.
-- Refreshing of User Profile. Once again due to the simulator, we must update
+- Refreshing of User Profile: Once again due to the simulator, we must update
   the user profile at each sensor tick to ensure that fields have not changed.
   On a real device, this would be done once at the beginning of the activity.
+- Watch UI using bitmaps: I (Brendan) am by no means a graphic designer, so the
+  UI of the application is simple. A small logo .png to put into the
+  bitmap or symbols next to each field could make things a bit more fun to look
+  at, but may take some outsourcing.
