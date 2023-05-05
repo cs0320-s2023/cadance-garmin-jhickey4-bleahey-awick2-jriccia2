@@ -1,3 +1,7 @@
 <strings>
-    <string id="AppName">Cadance</string>
+    <string id="AppName">CaDance</string>
+    <string id="EnergyText">Recommended Energy: </string>
+    <string id="CadenceText">Cadence: </string>
+    <string id="HeartRateText">Heart Rate: </string>
+    <string id="EnergyFormat">%.2f</string>
 </strings>

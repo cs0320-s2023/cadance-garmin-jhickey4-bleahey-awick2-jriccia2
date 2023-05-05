@@ -3,7 +3,7 @@
     <layout id="MainLayout">
         <label 
         id="title"
-        text="CaDance"
+        text="@Strings.AppName"
         x="center" 
         y="10%" 
         color="Gfx.COLOR_ORANGE"
@@ -13,7 +13,7 @@
 
         <label
         id="Energy"
-        text="Recommended Energy: "
+        text="@Strings.EnergyText"
         x="10%"
         y="40%"
         color="Gfx.COLOR_WHITE"
@@ -23,7 +23,7 @@
 
         <label
         id="heartRate"
-        text="Heart Rate: "
+        text="@Strings.HeartRateText"
         x="10%"
         y="50%"
         color="Gfx.COLOR_WHITE"
@@ -33,7 +33,7 @@
 
         <label
         id="cadence"
-        text="Cadence: "
+        text="@Strings.CadenceText"
         x="10%"
         y="60%"
         color="Gfx.COLOR_WHITE"

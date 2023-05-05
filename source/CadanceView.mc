@@ -7,10 +7,6 @@ import Toybox.Math;
 // displaying the current cadence, heart rate, and recommended energy
 // level.
 class CadanceView extends WatchUi.View {
-  var energyText = "Recommended Energy: ";
-  var cadenceText = "Cadence: ";
-  var heartRateText = "Heart Rate: ";
-
   hidden var dataDelegate = new CadanceDataDelegate();
 
   hidden var energyLabel;
@@ -55,13 +51,22 @@ class CadanceView extends WatchUi.View {
     dc.clear();
     View.onUpdate(dc);
 
+    //System.println(WatchUi.loadResource(Rez.Strings.EnergyFormat));
+
     var energyToDisplay = (
       Math.round(dataDelegate.getEnergy() * 100d) / 100d
-    ).format("%.2f");
+    ).format(WatchUi.loadResource(Rez.Strings.EnergyFormat));
 
-    energyLabel.setText(energyText + energyToDisplay);
-    cadenceLabel.setText(cadenceText + dataDelegate.getCadence());
-    heartRateLabel.setText(heartRateText + dataDelegate.getHeartRate());
+    energyLabel.setText(
+      WatchUi.loadResource(Rez.Strings.EnergyText) + energyToDisplay
+    );
+    cadenceLabel.setText(
+      WatchUi.loadResource(Rez.Strings.CadenceText) + dataDelegate.getCadence()
+    );
+    heartRateLabel.setText(
+      WatchUi.loadResource(Rez.Strings.HeartRateText) +
+        dataDelegate.getHeartRate()
+    );
   }
 
   // Called when this View is removed from the screen. Save the
