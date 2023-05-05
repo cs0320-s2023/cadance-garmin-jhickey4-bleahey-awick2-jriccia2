@@ -90,12 +90,6 @@ changing the values there as desired.
 
 ## Testing
 
-### Integration tests
-
-Assertion statements are provided throughout the 'test' branch of the project.
-Running the application in the simulator will display the results of these
-assertions in the console.
-
 ### Unit Tests
 
 Unit tests are provided in the 'test' branch of the project. To run tests,
