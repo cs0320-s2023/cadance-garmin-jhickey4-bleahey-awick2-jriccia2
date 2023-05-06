@@ -21,14 +21,14 @@ class CadanceApp extends Application.AppBase {
   //creates a smaller view for the glance, which is updated when
   // the user opens the actual app
   (:glance)
-  function getGlanceView() {
+  function getGlanceView() as Array<GlanceView>? {
     //create a delegate to handle functions
     return [new CadanceGlanceView()] as Array<GlanceView>;
   }
 
-  function onGlanceEvent(options) {
-    //If I want to display something other than the app name, add a
-    // delegate or event here.
+  function onGlanceEvent(options) as Void {
+    //Expand on Glance functionality here
+    //For now, no actions are taken in glance mode but displaying the logo
   }
 
   // Returns the initial view of the application
