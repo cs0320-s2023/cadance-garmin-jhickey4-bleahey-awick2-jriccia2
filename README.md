@@ -92,7 +92,7 @@ changing the values there as desired.
 
 ### Unit Tests
 
-Unit tests are provided in the 'test' branch of the project. To run tests,
+Unit tests are provided in the 'test' directory of the project. To run tests,
 navigate the root directory of the project then use the command pallete to run
 the command "Monkey C: Run Tests". This will run all tests in the project and
 display the results in the debug console.
