@@ -13,7 +13,7 @@ Alex Wick (awick2)
 Joey Ricciarduli (jriccia2)
 
 **Git Repo Link:**
-https://github.com/cs0320-s2023/cadance-garmin-jhickey4-bleahey-awick2-jriccia2/tree/main/source
+https://github.com/cs0320-s2023/cadance-garmin-jhickey4-bleahey-awick2-jriccia2
 
 **Description:**
 CaDance for Garmin is a Garmin Connect IQ application that uses the sensor data
